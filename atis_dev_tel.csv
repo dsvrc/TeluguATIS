@@ -1,0 +1,501 @@
+intent,tagged_tel_sentence
+atis_flight,నేను:O బాల్టిమోర్:B-fromloc.city_name నుండి:O డల్లాస్:B-toloc.city_name రౌండ్:B-round_trip ట్రిప్:I-round_trip వెళ్లాలనుకుంటున్నాను:O 
+atis_airfare,బాల్టిమోర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియా:B-toloc.city_name వరకు:O రౌండ్:B-round_trip ట్రిప్:I-round_trip ఛార్జీలు:O 1000:B-fare_amount డాలర్ల:I-fare_amount కంటే:O తక్కువ:B-cost_relative 
+atis_flight,జూన్:B-arrive_date.month_name పద్నాలుగో:B-arrive_date.day_number తేదీన:O బాల్టిమోర్‌కు:B-toloc.city_name వచ్చే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O ఇండియానాపోలిస్:B-stoploc.city_name మీదుగా:O వాషింగ్టన్‌కి:B-toloc.city_name వెళ్లి:O రాత్రి:O 9:B-arrive_time.time గంటలకు:O చేరుకునే:O విమానాలు:O ఏమిటి:O 
+atis_airline,బోస్టన్:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O ఇతర:O నగరాల:O ద్వారా:O ఏ:O ఎయిర్‌లైన్స్:O ఎగురుతుంది:O 
+atis_flight,నేను:O షార్లెట్:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name వెగాస్‌కి:O వెళ్లే:O విమానం:O కోసం:O వెతుకుతున్నాను:O అది:O సెయింట్.:B-stoploc.city_name లూయిస్:I-stoploc.city_name ఆశాజనక:O ఒక:O డిన్నర్:O ఫ్లైట్:O నేను:O దానిని:O ఎలా:O కనుగొనగలను:O 
+atis_flight,సరే:O ఆపై:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O నేను:O సెప్టెంబర్:B-depart_date.month_name నాల్గవ:B-depart_date.day_number తేదీన:O అట్లాంటాకు:B-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O సిన్సినాటికి:B-toloc.city_name అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,సరే:O నేను:O మధ్యాహ్నం:B-depart_time.period_of_day ఇండియానాపోలిస్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name డియాగోకు:I-toloc.city_name మాలో:O విమానంలో:O ప్రయాణించాలనుకుంటున్నాను:O 
+atis_flight,మంగళవారం:B-depart_date.day_name ఫీనిక్స్:B-fromloc.city_name నుండి:O సెయింట్‌కి:B-toloc.city_name ఏ:O విమానాలు:O బయలుదేరుతాయి.:O పాల్:I-toloc.city_name మిన్నెసోటా:B-toloc.state_name మరియు:O మధ్యాహ్నం:B-depart_time.time తర్వాత:B-depart_time.time_relative బయలుదేరండి:O 
+atis_flight,చికాగో:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name ఏంజిల్స్:I-toloc.city_name ఉదయం:B-depart_time.period_of_day అమెరికన్:B-airline_name విమానాలు:O 
+atis_ground_service,శాన్:B-toloc.airport_name ఫ్రాన్సిస్కో:I-toloc.airport_name విమానాశ్రయానికి:I-toloc.airport_name ఏ:O రకమైన:O భూ:O రవాణా:O ఉంది:O 
+atis_flight,మరో:O రెండు:O రోజుల్లో:O నేను:O నాష్‌విల్లే:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name జోస్:I-toloc.city_name లేదా:B-or టాకోమాకు:B-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,కాంటినెంటల్:B-airline_name ఎయిర్‌లైన్స్:O డెన్వర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name ఎగురుతుంది:O 
+atis_flight,చికాగో:B-fromloc.city_name నుండి:O మిల్వాకీకి:B-toloc.city_name 
+atis_quantity,బిజినెస్:O క్లాస్‌లో:O రెండు:B-airline_code విమానాలు:O ఎన్ని:O ఉన్నాయి:O 
+atis_flight,నాకు:O ఫస్ట్:B-class_type క్లాస్‌లో:O డల్లాస్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వెళ్లే:O విమానాలను:O చూపించు:O 
+atis_airfare,నేను:O బోస్టన్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name అతి:O తక్కువ:O ఖరీదైన:I-cost_relative వన్:B-round_trip వే:O ఛార్జీని:O కనుగొనాలనుకుంటున్నాను:O 
+atis_quantity,ఎన్ని:O బుకింగ్:O తరగతులు:O ఉన్నాయి:O 
+atis_flight,బుధవారం:B-depart_date.day_name పంతొమ్మిదవ:B-depart_date.day_number తేదీన:O టాకోమా:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name జోస్‌కి:I-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_flight,ఏ:O విమానాలు:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O జూలై:B-depart_date.month_name ఐదవ:B-depart_date.day_number తేదీన:O సాయంత్రం:I-depart_time.time 7:B-depart_time.time గంటల:O తర్వాత:B-depart_time.time_relative బయలుదేరి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name చేరుకుంటాయి:O 
+atis_flight,దయచేసి:O సాధారణ:B-fromloc.airport_name మిచెల్:I-fromloc.airport_name ఇంటర్నేషనల్:O నుండి:O వచ్చే:O మరియు:O బయలుదేరే:O అన్ని:O విమానాలను:O జాబితా:O చేయండి:O 
+atis_city,డెన్వర్:B-city_name ఏ:O టైమ్:O జోన్‌లో:O ఉంది:O 
+atis_ground_service,బోస్టన్:B-city_name మరియు:O బాల్టిమోర్‌లో:B-city_name నాకు:O భూ:O రవాణాను:O చూపించు:O 
+atis_flight,నేను:O బాల్టిమోర్:B-fromloc.city_name నుండి:O బోస్టన్‌కు:B-toloc.city_name భోజనం:B-meal అందించే:O మొదటి:O విమానాన్ని:O కనుగొనాలనుకుంటున్నాను:O 
+atis_flight,సీటెల్:B-fromloc.city_name నుండి:O సాల్ట్:B-toloc.city_name లేక్:I-toloc.city_name సిటీ:O వరకు:O 
+atis_flight,మీరు:O డల్లాస్:B-fromloc.city_name నుండి:O బాల్టిమోర్‌కి:B-toloc.city_name ఎకానమీ:O ఛార్జీలతో:O విమానాలను:O నాకు:O చూపగలరా?:O 
+atis_flight,ఫీనిక్స్:B-fromloc.city_name నుండి:O ఏ:O విమానాలు:O బయలుదేరుతాయి:O 
+atis_flight,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_flight,మయామి:B-fromloc.city_name నుండి:O క్లీవ్‌ల్యాండ్‌కి:B-toloc.city_name బయలుదేరే:O విమానాలను:O మా:B-airline_name మధ్యాహ్న:B-depart_time.time తర్వాత:B-depart_time.time_relative బయలుదేరే:O ఎయిర్‌లలో:O చూపించండి:O 
+atis_flight;atis_airfare,దయచేసి:O నాకు:O డల్లాస్:B-fromloc.city_name మరియు:O బాల్టిమోర్:B-toloc.city_name మధ్య:O ఉన్న:O అన్ని:O విమానాల:O జాబితా:O మరియు:O వాటి:O ధరను:O ఇవ్వండి:O 
+atis_abbreviation,ఫేర్:O కోడ్:O y:O అంటే:O ఏమిటి:O 
+atis_ground_service,ఫీనిక్స్లో:B-city_name భూ:O రవాణా:O 
+atis_flight,సరే:O యునైటెడ్:O ఎయిర్‌లైన్:O ద్వారా:O డల్లాస్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name ఏ:O విమానం:I-airline_name బయలుదేరుతుందో:O మీరు:O నాకు:O చెప్పగలరా:O 
+atis_flight,వచ్చే:O బుధవారం:B-depart_date.day_name డెన్వర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name మధ్యాహ్నం:B-depart_time.time తర్వాత:B-depart_time.time_relative బయలుదేరే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,అట్లాంటా:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name డెన్వర్‌లో:B-stoploc.city_name ఆగిపోయే:O విమానం:O ఉందా?:O 
+atis_flight,అమెరికన్:B-airline_name ఎయిర్‌లైన్స్:O కోసం:O అట్లాంటాలో:B-city_name బయలుదేరడం:O మరియు:O రాకపోకలు:O చూపుతాయి:O 
+atis_flight,నాకు:O బోస్టన్:B-toloc.city_name నుండి:O అట్లాంటాకు:B-fromloc.city_name తొలి:O విమానాన్ని:O కనుగొనండి:O మరియు:O అదే:B-depart_date.date_relative రోజులో:O అట్లాంటా:B-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name తాజా:B-flight_mod రిటర్న్:O 
+atis_flight,నేను:O బుధవారం:B-depart_date.day_name సాయంత్రం:B-depart_time.period_of_day లేదా:B-or గురువారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day మిల్వాకీ:B-fromloc.city_name నుండి:O ఓర్లాండోకు:B-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,నేను:O డెన్వర్‌లో:B-fromloc.city_name బయలుదేరి:O పిట్స్‌బర్గ్:B-toloc.city_name మరియు:O అట్లాంటాకు:B-toloc.city_name వెళ్లాలని:O కోరుకుంటున్నాను:O 
+atis_flight,నాకు:O డల్లాస్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name విమానాలు:O చూపించు:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name ఏ:O విమానాలు:O అందుబాటులో:O ఉన్నాయి:O 
+atis_airfare,బోస్టన్:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name విమాన:O ఖర్చు:O ఎంత:O 
+atis_flight,శాన్:B-fromloc.city_name జోస్:I-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name అల్పాహారం:O అందించే:O తొలి:O విమానాన్ని:O నాకు:O చూపించు:O 
+atis_airfare,దయచేసి:O మీరు:O నాకు:O డెన్వర్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name వెళ్లే:O ప్రయాణ:O ఛార్జీలను:O ఇవ్వగలరా?:O 
+atis_flight,మీకు:O బోస్టన్:B-fromloc.city_name నుండి:O ఉదయం:I-depart_time.time 645:B-depart_time.time గంటలకు:O వాషింగ్టన్‌కు:B-toloc.city_name వెళ్లే:O విమానం:O ఉందా:O 
+atis_flight,అట్లాంటా:B-toloc.city_name విమానాశ్రయానికి:O అన్ని:O విమానాలు:O ఏమిటి:O 
+atis_flight,శుక్రవారం:B-depart_date.day_name అట్లాంటా:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_abbreviation,ధర:O కోడ్:O qx:B-fare_basis_code అంటే:O ఏమిటి:O 
+atis_flight,నేను:O వాషింగ్టన్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name రెండు:B-airline_code విమానాల:O గురించి:O సమాచారాన్ని:O పొందాలనుకుంటున్నాను:O 
+atis_airline,ఏ:O ఎయిర్‌లైన్స్:O బోస్టన్:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O ఎగురుతుంది:O కానీ:O కొన్ని:O ఇతర:O నగరంలో:O ఆగుతుంది:O 
+atis_ground_service,ఓక్లాండ్‌లో:B-city_name భూ:O రవాణా:O 
+atis_flight,శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O డెన్వర్:B-toloc.city_name వరకు:O యునైటెడ్:O ఎయిర్‌లైన్స్‌లోని:O అన్ని:O మధ్యాహ్నం:B-depart_time.period_of_day విమానాలను:I-airline_name జాబితా:O చేయండి:O 
+atis_flight,సోమవారం:B-depart_date.day_name శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name వెళ్లే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O డెన్వర్‌కు:B-toloc.city_name బయలుదేరే:O తాజా:B-flight_mod విమానం:O ఏమిటి:O 
+atis_aircraft,సరే:O దయచేసి:O క్లీవ్‌ల్యాండ్:B-fromloc.city_name నుండి:O డల్లాస్‌కు:B-toloc.city_name వెళ్లే:O విమానంలో:O ఉపయోగించే:O విమానం:O రకాన్ని:O నేను:O తెలుసుకోవాలనుకుంటున్నాను:O 
+atis_flight,దయచేసి:O ఇరవై:B-depart_date.day_number ఎనిమిదో:I-depart_date.day_number తేదీన:O లాస్:B-fromloc.city_name వేగాస్:I-fromloc.city_name నుండి:O డెట్రాయిట్‌కి:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించండి:O 
+atis_airline,సెయింట్:B-fromloc.city_name నుండి:O ఏ:O విమానయాన:O సంస్థలు:O ఎగురుతున్నాయి.:O పీటర్స్‌బర్గ్:I-fromloc.city_name నుండి:O మిల్వాకీ:B-fromloc.city_name మరియు:O మిల్వాకీ:B-fromloc.city_name నుండి:O టాకోమా:B-toloc.city_name వరకు:O 
+atis_flight,నేను:O బోస్టన్‌లో:B-fromloc.city_name ప్రారంభమయ్యే:O విమానంలో:O ప్రయాణించాలనుకుంటున్నాను:O మరియు:O డల్లాస్:B-toloc.city_name ఫోర్ట్:O వర్త్‌లో:O దిగాలనుకుంటున్నాను:O కానీ:O నేను:O ఫిలడెల్ఫియాలో:B-stoploc.city_name ఆగాలనుకుంటున్నాను:O 
+atis_flight,St.:O పీటర్స్‌బర్గ్:I-fromloc.city_name నుండి:O మిల్వాకీ:B-toloc.city_name వరకు:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O మిల్వాకీ:B-toloc.city_name వరకు:O అమెరికన్:B-airline_name ఎయిర్‌లైన్స్:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O వాషింగ్టన్‌కు:B-toloc.city_name మధ్యాహ్న:B-depart_time.time సమయంలో:O ఏ:O విమానం:O అందుబాటులో:O ఉంది:O 
+atis_flight,నాకు:O ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name తిరుగు:O ప్రయాణం:O కావాలి:O 
+atis_flight,డెన్వర్‌లో:B-stoploc.city_name స్టాప్‌లతో:O వాయువ్య:B-airline_name విమానాలు:O 
+atis_airfare,బాల్టిమోర్:B-fromloc.city_name నుండి:O డల్లాస్‌కి:B-toloc.city_name ఫస్ట్:B-class_type క్లాస్:I-class_typefirst ధర:O ఎంత:O 
+atis_airline,దయచేసి:O మీరు:O టొరంటో:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name డియాగోకు:I-toloc.city_name ప్రయాణించే:O విమానయాన:O సంస్థలను:O నాకు:O తెలియజేయగలరా?:O 
+atis_flight,జూన్:B-depart_date.month_name ముప్పైన:B-depart_date.day_number మెంఫిస్:B-fromloc.city_name నుండి:O సిన్సినాటికి:B-toloc.city_name తొలి:O విమానం:O ఏది:O 
+atis_flight,డల్లాస్:B-fromloc.city_name నుండి:O హ్యూస్టన్‌కు:O నాన్‌స్టాప్:B-flight_stop విమానాలను:O నాకు:O చూపించు:O 
+atis_airfare,డల్లాస్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వరకు:O ఎకానమీ:O ఛార్జీలను:O నాకు:O చూపించు:O 
+atis_flight,నేను:O కాంటినెంటల్:B-airline_name ఎయిర్‌లైన్స్‌లో:O ఆగస్టు:B-depart_date.month_name ఇరవైన:B-depart_date.day_number వాషింగ్టన్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,మీకు:O బుధవారం:B-depart_date.day_name డెన్వర్:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O నాన్‌స్టాప్:B-flight_stop ఫ్లైట్:O ఉందా:O 
+atis_abbreviation,ewr:B-airport_code అంటే:O ఏమిటి:O 
+atis_flight,నేను:O బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,ఆగస్ట్:B-depart_date.month_name ఇరవై:B-depart_date.day_number ఏడవ:I-depart_date.day_number తేదీన:O సాయంత్రం:B-depart_time.period_of_day డల్లాస్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name ఏ:I-depart_date.day_number విమానం:O బయలుదేరుతుంది:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name మరియు:O నెవార్క్:B-toloc.city_name మధ్య:O బుధవారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day విమానాలు:O 
+atis_flight,నాకు:O డల్లాస్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name విమానాలు:O చూపించు:O 
+atis_flight,కాంటినెంటల్‌లోని:O చికాగోకు:B-toloc.city_name రాత్రి:O 11:B-arrive_time.time గంటల:O తర్వాత:B-arrive_time.time_relative ఏ:O విమానాలు:O చేరుకుంటాయి:O 
+atis_airfare,బోస్టన్:B-fromloc.city_name మరియు:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కో:I-toloc.city_name మధ్య:O డెల్టాలో:B-airline_name ఉన్న:O అతి:B-cost_relative తక్కువ:O ధర:O ఎంత:O 
+atis_flight,నేను:O బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_airfare,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name రౌండ్:B-round_trip ట్రిప్:I-round_trip విమాన:O ఛార్జీలు:O 1000:B-fare_amount డాలర్ల:I-fare_amount కంటే:O తక్కువ:B-cost_relative 
+atis_airline,పిట్స్‌బర్గ్:B-fromloc.city_name మరియు:O బాల్టిమోర్:B-toloc.city_name మధ్య:O ఏదైనా:O విమానయాన:O సంస్థ:O జెట్:O విమానాన్ని:O కలిగి:O ఉందా?:O 
+atis_abbreviation,mco:B-airport_code అంటే:O ఏమిటి:O 
+atis_flight,నెవార్క్:B-fromloc.city_name న్యూ:O జెర్సీ:I-fromloc.state_name నుండి:O అంటారియో:B-toloc.airport_name ఇంటర్నేషనల్‌కి:O వచ్చే:O శనివారం:B-depart_date.day_name విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,నేను:O డల్లాస్:B-fromloc.city_name ఫోర్ట్:O వర్త్:O నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,న్యూయార్క్:B-fromloc.city_name నగరం:I-fromloc.city_name మరియు:O లాస్:B-toloc.city_name వెగాస్:I-toloc.city_name మధ్య:O విమానాలను:O నాకు:O చూపించు:O 
+atis_distance,అట్లాంటా:B-toloc.city_name విమానాశ్రయం:I-fromloc.airport_name నుండి:O అట్లాంటా:B-toloc.city_name నగరంలోకి:O చేరుకోవడానికి:O ఎంత:O సమయం:O పడుతుంది:O 
+atis_airfare,డల్లాస్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వరకు:O అన్ని:O ఫస్ట్:B-class_type క్లాస్:I-class_typefirst ధరలను:O నాకు:O చూపించు:O 
+atis_flight,డల్లాస్:B-stoploc.city_name ఫోర్ట్:O వర్త్‌లో:O స్టాప్‌ఓవర్‌తో:O శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name మరియు:O బోస్టన్:B-toloc.city_name మధ్య:O విమానం:O ఉందా:O 
+atis_ground_service,శాన్:B-city_name ఫ్రాన్సిస్కో:I-city_name కోసం:O భూ:O రవాణా:O సమాచారాన్ని:O నాకు:O చూపించు:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకి:I-toloc.city_name చవకైన:B-flight_mod విమానం:O కావాలి:O 
+atis_flight,అల్పాహారం:B-meal_description అందించే:O బోస్టన్:B-fromloc.city_name నుండి:O ఓక్‌లాండ్‌కు:B-toloc.city_name తొలి:O విమానాన్ని:O కనుగొనండి:O 
+atis_flight,నేను:O ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O డల్లాస్:B-toloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,అట్లాంటా:B-fromloc.city_name నుండి:O బాల్టిమోర్‌కి:B-toloc.city_name అన్ని:O డైరెక్ట్:O ఫ్లైట్‌లను:O నాకు:O చూపించు:O 
+atis_flight,హ్యూస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name జోస్కి:I-toloc.city_name తాజా:B-flight_mod విమానం:O 
+atis_flight,న్యూయార్క్:B-fromloc.city_name నగరం:I-fromloc.city_name నుండి:O లాస్:B-toloc.city_name వెగాస్‌కి:O ఆదివారం:B-arrive_date.day_name వచ్చే:O విమానాలు:O ఏమిటి:O 
+atis_flight,నేను:O వాషింగ్టన్:B-fromloc.city_name డిసి:O నుండి:O డెన్వర్:B-toloc.city_name కొలరాడోకి:B-toloc.state_name యునైటెడ్:O ఎయిర్‌లైన్స్‌ను:O నడపాలనుకుంటున్నాను:O 
+atis_flight,సరే:O నేను:O డల్లాస్:B-fromloc.city_name మరియు:O బాల్టిమోర్:B-toloc.city_name మధ్య:O ఎకానమీ:O విమానాలను:O చూడాలి:O 
+atis_flight,దయచేసి:O బుధవారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day అల్పాహారం:B-meal_description అందిస్తూ:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name విమానాలను:O చూపించు:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name నుండి:O బయలుదేరి:O అట్లాంటాకు:B-toloc.city_name చేరుకునే:O విమానాల:O గురించి:O నాకు:O సమాచారం:O కావాలి:O 
+atis_flight,రేపు:B-arrive_date.today_relative ఉదయం:I-arrive_time.time 9:B-arrive_time.time గంటలకు:I-arrive_time.time ముందు:B-arrive_time.time_relative పిట్స్‌బర్గ్:B-toloc.city_name చేరుకునే:O శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name వెళ్లే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_airfare,డల్లాస్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కో:I-toloc.city_name వరకు:O ఛార్జీలను:O నాకు:O చూపించు:O 
+atis_flight,దయచేసి:O నాకు:O బాల్టిమోర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name అందుబాటులో:O ఉన్న:O విమానాలను:O అందించండి:O 
+atis_flight,జనవరి:B-depart_date.month_name మొదటి:O 1992లో:B-depart_date.year బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వరకు:O ఉదయం:I-depart_time.start_time 10:B-depart_time.start_time మరియు:O మధ్యాహ్నం:O 2:B-depart_time.end_time గంటల:O మధ్య:O విమానాలు:O 
+atis_ground_service,అట్లాంటాలో:B-city_name ఏ:O భూ:O రవాణా:O ఉంది:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name వాషింగ్టన్:B-fromloc.city_name నుండి:O ఓక్లాండ్:B-toloc.city_name వరకు:O 445:B-arrive_time.start_time మరియు:O 515:B-arrive_time.end_time గంటల:O మధ్య:O వచ్చే:O నాన్‌స్టాప్:B-flight_stop విమానాలను:O జాబితా:O చేయండి:O 
+atis_flight,శుక్రవారం:B-depart_date.day_name సాయంత్రం:I-depart_time.end_time 6:B-depart_time.start_time మరియు:O 8:B-depart_time.end_time గంటల:O మధ్య:O బాల్టిమోర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name విమానాలను:O చూపించు:O 
+atis_flight,నేను:O డెన్వర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_airfare,డెన్వర్:B-fromloc.city_name నుండి:O బోస్టన్‌కు:B-toloc.city_name కోచ్:B-class_type వారాంతపు:I-flight_mod రోజులు:O మాత్రమే:B-flight_mod ఛార్జీలు:O చెల్లిస్తుంది:O 
+atis_airfare,నెవార్క్:B-fromloc.city_name నుండి:O లా:B-airport_name వరకు:O మధ్యాహ్నం:O 3:B-depart_time.time గంటల:O తర్వాత:B-depart_time.time_relative బయలుదేరే:O విమానాల:O కోచ్:B-class_type ఛార్జీలు:O ఎంత:O 
+atis_flight,ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O టొరంటో:B-toloc.city_name వరకు:O 
+atis_flight,నేను:O ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name నాన్‌స్టాప్:B-flight_stop ఫ్లైట్:O చేయాలనుకుంటున్నాను:O 
+atis_flight,మిన్నియాపాలిస్:B-fromloc.city_name నుండి:O ఇండియానాపోలిస్‌కు:B-toloc.city_name మధ్యాహ్నం:B-depart_time.period_of_day బయలుదేరే:O నా:O ఎంపికలు:O ఏమిటి:O 
+atis_flight,8కి:B-depart_time.time ముందు:B-depart_time.time_relative బోస్టన్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name అత్యంత:O చౌకైన:B-cost_relative విమానం:O ఏది:O 
+atis_flight,బోస్టన్:B-fromloc.city_name మరియు:O ఓక్లాండ్:B-toloc.city_name మధ్య:O సాధ్యమయ్యే:O రౌండ్:B-round_trip ట్రిప్:I-round_trip రోజువారీ:B-flight_days విమానాలను:O జాబితా:O చేయండి:O 
+atis_airfare,దయచేసి:O నాకు:O బాల్టిమోర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name రౌండ్:B-round_trip ట్రిప్:I-round_trip ఛార్జీలు:O ఇవ్వండి:O 
+atis_flight,లాంగ్:B-fromloc.city_name బీచ్:I-fromloc.city_name నుండి:O సెయింట్‌కి:B-toloc.city_name విమానాన్ని:O కనుగొనండి.:O లూయిస్:I-toloc.city_name డల్లాస్‌లో:B-stoploc.city_name ఆగాడు:O 
+atis_flight,దయచేసి:O సెయింట్:B-fromloc.city_name నుండి:O విమానాలను:O జాబితా:O చేయండి.:O పాల్:I-fromloc.city_name శుక్రవారం:B-depart_date.day_name రాత్రి:B-depart_time.period_of_day కాన్సాస్:B-toloc.city_name నగరానికి:I-toloc.city_name భోజనం:B-meal అందజేస్తుంది:O 
+atis_airfare,జూలై:B-arrive_date.month_name నాల్గవ:B-arrive_date.day_number తేదీన:O డల్లాస్:B-fromloc.city_name నుండి:O బాల్టిమోర్‌కు:B-toloc.city_name చేరుకునే:O విమానానికి:O అందుబాటులో:O ఉన్న:O తక్కువ:O ధర:O విమాన:O ఛార్జీ:O ఏమిటి:O 
+atis_flight,మీరు:O బాల్టిమోర్:B-fromloc.city_name నుండి:O డల్లాస్‌కు:B-toloc.city_name విమానాలను:O నాకు:O చూపగలరా?:O 
+atis_flight,ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O డల్లాస్‌కి:B-toloc.city_name వెళ్లడానికి:O నాకు:O శనివారం:B-depart_date.day_name విమాన:O సమాచారం:O కావాలి:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్:B-toloc.city_name మరియు:O అట్లాంటాకు:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,మీరు:O బోస్టన్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name బయలుదేరిన:O తొలి:O విమానం:O ఏమిటి:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name అత్యంత:O తక్కువ:O ఖరీదైన:I-cost_relative విమానాలు:O ఏమిటి:O 
+atis_ground_service,నేను:O డల్లాస్‌కు:B-city_name చేరుకున్న:O తర్వాత:O అక్కడ:O ఎలాంటి:O భూ:O రవాణా:O ఉంది:O 
+atis_flight,గురువారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day అట్లాంటా:B-fromloc.city_name నుండి:O వాషింగ్టన్‌కి:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name డెల్టాలో:B-airline_name విమానాన్ని:O కనుగొనండి:O 
+atis_flight,మీకు:O బోస్టన్:B-fromloc.city_name నుండి:O డల్లాస్:B-toloc.city_name ఫోర్ట్‌కి:O ఫిలడెల్ఫియాలో:B-stoploc.city_name ఆపే:O విలువైన:I-toloc.city_name విమానాలు:O ఏమైనా:O ఉన్నాయా?:O 
+atis_abbreviation,ff:B-airline_code అంటే:O ఏమిటి:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కో:I-toloc.city_name వరకు:O అన్ని:O నాన్‌స్టాప్:B-flight_stop విమానాలను:O చూపించు:O 
+atis_ground_service,డెన్వర్‌లో:B-city_name ఎలాంటి:O భూ:O రవాణా:O అందుబాటులో:O ఉంది:O 
+atis_flight,నేను:O ఇండియానాపోలిస్:B-fromloc.city_name నుండి:O హ్యూస్టన్‌కి:O ప్రయాణించాలనుకుంటున్నాను:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్:B-toloc.city_name వరకు:O రౌండ్:B-round_trip ట్రిప్:I-round_trip ఫ్లైట్:O కోసం:O ప్రయాణ:O ఏర్పాట్లను:O కనుగొనండి:O 
+atis_flight,దయచేసి:O అట్లాంటా:B-fromloc.city_name నుండి:O సెయింట్‌కి:B-toloc.city_name మంగళవారం:B-depart_date.day_name విమానాలను:O జాబితా:O చేయండి.:O లూయిస్:I-toloc.city_name 
+atis_flight,అట్లాంటా:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకి:I-toloc.city_name అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_airfare,నేను:O డల్లాస్:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name పొందగలిగే:O చౌకైన:B-cost_relative ధర:O ఎంత:O 
+atis_flight,సాల్ట్:B-fromloc.city_name లేక్:I-fromloc.city_name సిటీ:O నుండి:O సెయింట్‌కి:B-toloc.city_name తాజా:B-flight_mod విమానం:O ఏమిటి.:O పీటర్స్బర్గ్:I-toloc.city_name 
+atis_flight,ఖండాంతరంలో:B-airline_name చికాగో:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కో:I-toloc.city_name వరకు:O 
+atis_flight,ఓక్లాండ్:B-fromloc.city_name నుండి:O సాల్ట్:B-toloc.city_name లేక్:I-toloc.city_name సిటీకి:O వెళ్లే:O అన్ని:O విమానాలను:O మీరు:O నాకు:O చూపించగలరా?:O 
+atis_city,కెనడియన్:B-airline_name ఎయిర్‌లైన్స్:O ఇంటర్నేషనల్:O ఏ:O నగరాలకు:O సేవలు:O అందిస్తోంది:O 
+atis_flight,దయచేసి:O శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O ఫిలడెల్ఫియా:B-toloc.city_name వరకు:O 
+atis_flight,నాష్‌విల్లే:B-fromloc.city_name నుండి:O సీటెల్‌కు:B-toloc.city_name విమానాలు:O 
+atis_flight,ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O ఓక్లాండ్:B-toloc.city_name కాలిఫోర్నియాకు:B-toloc.state_name శుక్రవారం:B-depart_date.day_name మధ్యాహ్నం:B-depart_time.period_of_day ఏ:O విమానాలు:O అందుబాటులో:O ఉన్నాయి:O 
+atis_flight,టొరంటో:B-fromloc.city_name నుండి:O సాల్ట్:B-toloc.city_name లేక్:I-toloc.city_name సిటీకి:O 530:B-depart_time.start_time మరియు:O 7:B-depart_time.end_time గంటల:O మధ్య:O టొరంటో:B-fromloc.city_name నుండి:O బయలుదేరే:O విమానాల:O గురించి:O చెప్పండి:O 
+atis_ground_service,డల్లాస్:B-city_name కోట:I-city_name విలువలో:I-city_name ఎలాంటి:O భూ:O రవాణా:O అందుబాటులో:O ఉంది:O 
+atis_flight,బుధవారం:B-depart_date.day_name బోస్టన్:B-fromloc.city_name నుండి:O డెన్వర్‌కు:B-toloc.city_name విమాన:O సమాచారాన్ని:O అభ్యర్థిస్తోంది:O 
+atis_flight,మీరు:O టొరంటో:B-fromloc.city_name నుండి:O బయలుదేరే:O మరియు:O డెన్వర్‌లో:B-stoploc.city_name స్టాప్‌ఓవర్‌తో:O శాన్:B-toloc.city_name డియాగోలో:I-toloc.city_name దిగే:O అన్ని:O విమానాలను:O జాబితా:O చేయగలరా:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కు:B-toloc.city_name అన్ని:O విమానాలు:O సాయంత్రం:I-depart_time.time 6:B-depart_time.time గంటల:O తర్వాత:B-depart_time.time_relative మరియు:O 7:B-depart_time.time గంటలలోపు:O బయలుదేరుతాయి:O 
+atis_flight,బుధవారం:B-depart_date.day_name ఫీనిక్స్:B-fromloc.city_name నుండి:O డెట్రాయిట్‌కు:B-toloc.city_name విమానాలను:O జాబితా:O చేయండి:O 
+atis_distance,పిట్స్‌బర్గ్:B-toloc.city_name విమానాశ్రయం:I-fromloc.airport_name మరియు:O డౌన్‌టౌన్:O పిట్స్‌బర్గ్:B-toloc.city_name మధ్య:O దూరం:O ఎంత:O 
+atis_flight,లవ్:B-toloc.airport_name ఫీల్డ్:I-fromloc.airport_name నుండి:O ఏదైనా:O ఇతర:O విమానాశ్రయానికి:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,షార్లెట్:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name వెగాస్‌కి:O వెళ్లే:O విమానాన్ని:O సెయింట్‌లో:B-stoploc.city_name ఆపివేయండి.:O డిన్నర్:O అందించే:O లూయిస్:I-stoploc.city_name మరియు:O నేను:O ఈ:B-depart_date.today_relative ఫ్లైట్:O కోసం:O ఎయిర్‌లైన్‌ను:O కనుగొనాలనుకుంటున్నాను:O 
+atis_flight,వాషింగ్టన్:B-fromloc.city_name డిసి:O నుండి:O టంపా:B-toloc.city_name ఫ్లోరిడాకు:B-toloc.state_name అన్ని:O విమానాలను:O జాబితా:O చేయండి:O 
+atis_airfare,బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name చౌకైన:B-cost_relative వన్:B-round_trip వే:O ఛార్జీని:O మీరు:O నాకు:O చెప్పగలరా?:O 
+atis_airline,ఏ:O విమానయాన:O సంస్థలు:O ఉన్నాయి:O 
+atis_flight,నేను:O డెన్వర్:B-fromloc.city_name మరియు:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కో:I-toloc.city_name మధ్య:B-depart_time.period_of_day విమానం:O డెన్వర్:B-fromloc.city_name నుండి:O మధ్యాహ్నం:B-depart_time.period_of_day బయలుదేరి:O సాయంత్రం:I-arrive_time.time 5:B-arrive_time.time గంటలకు:O చేరుకోవాలనుకుంటున్నాను:O అది:O నాన్‌స్టాప్:B-flight_stop ఫ్లైట్:O అయి:O ఉండాలి:O 
+atis_airline,ఏ:O ఇతర:O విమానయాన:O సంస్థ:O కంటే:O ఎక్కువ:O విమానాలు:O ఉన్నాయని:O ప్రకటించే:O ఎయిర్‌లైన్:O ఏదైనా:O ఉందా?:O 
+atis_flight,ఫీనిక్స్:B-fromloc.city_name నుండి:O డెన్వర్:B-toloc.city_name వరకు:O 
+atis_airfare,డెన్వర్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name అతి:B-cost_relative తక్కువ:O ధర:O ఎంత:O 
+atis_flight,నవంబర్:B-depart_date.month_name పదకొండవ:B-depart_date.day_number తేదీన:O బోస్టన్:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O అన్ని:O విమానాలు:O 
+atis_flight,నాష్‌విల్లే:B-fromloc.city_name నుండి:O క్లీవ్‌ల్యాండ్‌కు:B-toloc.city_name విమానం:O 
+atis_flight,నేను:O దయచేసి:O బాల్టిమోర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name విమానాలను:O చూడాలనుకుంటున్నాను:O 
+atis_flight,నాకు:O బోస్టన్:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name ట్వాలో:O ఫ్లైట్:O కావాలి:O 
+atis_flight,మీరు:O బోస్టన్:B-fromloc.city_name నుండి:O వాషింగ్టన్‌కి:B-toloc.city_name శనివారం:B-depart_date.day_name బయలుదేరే:O అతి:B-cost_relative తక్కువ:O వన్:B-round_trip వే:O ఛార్జీలతో:O విమానాలను:O జాబితా:O చేయగలరా:O 
+atis_flight,అట్లాంటా:B-fromloc.city_name డెన్వర్:B-fromloc.city_name మరియు:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O బాల్టిమోర్‌కు:B-toloc.city_name వచ్చే:O విమానాలను:O నాకు:O అందించండి:O 
+atis_flight,వాషింగ్టన్:B-fromloc.city_name డిసి:O నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకి:I-toloc.city_name బయలుదేరే:O అన్ని:O విమానాలు:O ఫస్ట్:B-class_type క్లాస్:I-class_typefirst 
+atis_flight,నాకు:O బాల్టిమోర్:B-fromloc.city_name నుండి:O సీటెల్‌కి:B-toloc.city_name విమానం:O కావాలి:O 
+atis_ground_service,ఫిలడెల్ఫియాలో:B-city_name భూ:O రవాణా:O సేవలు:O ఏమిటి:O 
+atis_abbreviation,ఫేర్:O కోడ్:O qo:O అంటే:O ఏమిటి:O 
+atis_ground_service,నేల:O రవాణా:O వాషింగ్టన్:B-city_name 
+atis_flight,ప్రేమ:B-toloc.airport_name క్షేత్రానికి:O తాజా:B-flight_mod విమానాన్ని:O నాకు:O చూపించు:O 
+atis_airline,బోస్టన్:B-fromloc.city_name మరియు:O అట్లాంటా:B-toloc.city_name మధ్య:O ఏ:O విమానయాన:O సంస్థలు:O ఎగురుతున్నాయి:O 
+atis_flight,జూలై:B-depart_date.month_name ఇరవై:B-depart_date.day_number ఒకటవ:O తేదీన:O బోస్టన్:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O అమెరికన్:B-airline_name యొక్క:O చివరి:B-flight_mod విమానం:O ఏమిటి:O 
+atis_flight,బుధవారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day బోస్టన్:B-fromloc.city_name నుండి:O డెన్వర్‌కు:B-toloc.city_name విమానాలను:O చూపించు:O 
+atis_flight,సోమవారం:B-depart_date.day_name ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name అన్ని:O విమానాలను:O నాకు:O చూపించు:O అవి:O భోజనం:B-meal అందజేసి:O మధ్యాహ్నానికి:B-arrive_time.time ముందే:B-arrive_time.time_relative చేరుకుంటాయి:O 
+atis_flight,డెల్టా:B-airline_name ఎయిర్‌లైన్‌లను:O ఉపయోగించి:O బోస్టన్:B-toloc.city_name మరియు:O ఓక్‌లాండ్:B-fromloc.city_name మధ్య:O మరియు:O ఓక్లాండ్:B-fromloc.city_name మరియు:O బోస్టన్:B-toloc.city_name మధ్య:O రోజువారీ:B-flight_days విమానాలన్నింటినీ:I-airline_name జాబితా:O చేయండి:O 
+atis_flight,నాకు:O గురువారం:B-depart_date.day_name అంటారియో:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name ఏంజిల్స్‌కి:I-toloc.city_name విమానం:O కావాలి:O 
+atis_airfare,dl:B-airline_code 217:B-flight_number విమానంలో:O డల్లాస్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name ఛార్జీలు:O ఏమిటి:O 
+atis_flight,మాంట్రియల్:B-fromloc.city_name నుండి:O చికాగోకు:B-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_flight,ఫస్ట్:B-class_type క్లాస్:I-class_typefirst సర్వీస్‌తో:O డెన్వర్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వరకు:O యునైటెడ్:O ఎయిర్‌లైన్:O రోజువారీ:B-flight_days విమానాలను:I-airline_name జాబితా:O చేయండి:O 
+atis_ground_service,అట్లాంటా:B-toloc.city_name విమానాశ్రయం:I-fromloc.airport_name నుండి:O డౌన్‌టౌన్:O అట్లాంటాకు:B-toloc.city_name భూ:O రవాణా:O ఉంది:O 
+atis_flight,దయచేసి:O బుధవారం:B-depart_date.day_name అట్లాంటా:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name తెల్లవారుజామున:O విమానాలను:O చూపించు:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name ఏ:O విమానాలు:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోలో:I-toloc.city_name రాత్రి:O 8:B-arrive_time.time గంటలకు:O ముందు:B-arrive_time.time_relative వస్తాయి:O 
+atis_airfare,సరే:O మీరు:O నాకు:O ఇండియానాపోలిస్:B-fromloc.city_name నుండి:O కాన్సాస్:B-toloc.city_name సిటీకి:O ఒక:O రౌండ్:B-round_trip ట్రిప్:I-round_trip టిక్కెట్‌ను:O పొందగలరా:O 
+atis_flight,మయామి:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,జూలై:B-depart_date.month_name ఐదవ:B-depart_date.day_number తేదీన:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name ఎగురుతున్న:O తొలి:O విమానం:O ఏది:O 
+atis_flight,డెన్వర్:B-fromloc.city_name మరియు:O ఓక్‌లాండ్:B-toloc.city_name మధ్య:B-depart_time.period_of_day విమానాన్ని:O కనుగొనండి:O విమానం:O మధ్యాహ్నం:B-depart_time.period_of_day బయలుదేరి:O సాయంత్రం:I-arrive_time.time 5:B-arrive_time.time గంటలకు:O చేరుకోవాలిO ఫ్లైట్:O కూడా:O నాన్‌స్టాప్‌గా:B-flight_stop ఉండాలి:O 
+atis_ground_service,నెవార్క్‌లో:B-city_name ఏ:O భూ:O రవాణా:O అందుబాటులో:O ఉంది:O 
+atis_flight,నాకు:O అట్లాంటాలో:B-stoploc.city_name స్టాప్‌తో:O ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O డల్లాస్‌కి:B-toloc.city_name ఫ్లైట్:O కావాలి:O 
+atis_flight,నాకు:O కాన్సాస్:B-fromloc.city_name సిటీ:O మిస్సౌరీ:B-fromloc.state_name నుండి:O సాల్ట్:B-toloc.city_name లేక్:I-toloc.city_name సిటీ:O ఉటాకు:O వెళ్లే:O విమానాల:I-airline_name గురించి:O నాకు:O సమాచారం:O కావాలి:O డెల్టా:B-airline_name ఎయిర్‌లైన్స్‌లోని:O విమానాలపై:I-airline_name మాత్రమే:O నాకు:O ఆసక్తి:O ఉంది:O 
+atis_flight,ఓక్లాండ్:B-fromloc.city_name నుండి:O బోస్టన్‌కు:B-toloc.city_name మొదటి:O విమానం:O ఎప్పుడు:O బయలుదేరుతుంది:O 
+atis_flight,ఫీనిక్స్:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name వేగాస్:I-toloc.city_name వరకు:O విమానాలు:O 
+atis_flight,వచ్చే:O సోమవారం:B-depart_date.day_name అట్లాంటా:B-fromloc.city_name నుండి:O బయలుదేరి:O షార్లెట్:B-toloc.city_name నార్త్:O కరోలినాకు:I-toloc.state_name వెళ్లే:O విమానాల:O గురించి:O నాకు:O చెప్పండి:O నేను:O 415:B-arrive_time.start_time మరియు:O 530:B-arrive_time.end_time గంటల:O మధ్య:O షార్లెట్‌కి:B-toloc.city_name వచ్చే:O విమానాల:O గురించి:O తెలుసుకోవాలి:O 
+atis_flight,నాకు:O డల్లాస్:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name డెల్టా:B-airline_name విమానాలను:O చూపించు:O 
+atis_ground_service,డెన్వర్‌లో:B-city_name విమానాశ్రయం:O నుండి:O డౌన్‌టౌన్:O వరకు:O ఎలాంటి:O భూ:O రవాణా:O ఉంది:O 
+atis_flight,నాకు:O ఆదివారం:B-depart_date.day_name ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name ఫ్లైట్:O ఇవ్వండి:O 
+atis_airfare,ఫిలడెల్ఫియా:B-fromloc.city_name మరియు:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కో:I-toloc.city_name మధ్య:O ఒక:B-round_trip మార్గంలో:I-round_trip 200:B-fare_amount డాలర్ల:I-fare_amount కంటే:O తక్కువ:B-cost_relative ఉన్న:O అన్ని:O ఛార్జీలను:O నాకు:O చూపించు:O 
+atis_abbreviation,భోజన:B-meal కోడ్‌లను:O వివరించండి:O sd:B-meal_code d:O 
+atis_flight,నాకు:O డెన్వర్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name విమానాలు:O కావాలి:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O డెన్వర్:B-toloc.city_name వరకు:O అన్ని:O విమానాలు:O ఏమిటి:O 
+atis_airfare,డల్లాస్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వరకు:O చౌకైన:B-cost_relative ఛార్జీని:O నాకు:O చూపించు:O 
+atis_flight,నేను:O డెన్వర్:B-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name ప్రయాణించడానికి:O ప్రయత్నిస్తున్నాను:O మరియు:O నాకు:O భోజనం:B-meal అందించే:O విమానం:O కావాలి:O 
+atis_airfare,శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O బాల్టిమోర్‌కి:B-toloc.city_name చౌకైన:B-cost_relative ధర:O ఎంత:O 
+atis_flight,సెయింట్:B-fromloc.city_name నుండి:O రౌండ్:B-round_trip ట్రిప్:I-round_trip విమానాలను:O జాబితా:O చేయండి.:O పాల్:I-fromloc.city_name నుండి:O శాన్:B-toloc.city_name జోస్:I-toloc.city_name 
+atis_flight,బోస్టన్:B-fromloc.city_name మరియు:O డల్లాస్:B-toloc.city_name మధ్య:O నేను:O వెళ్ళగలిగే:O తొలి:O విమానం:O ఏది:O 
+atis_aircraft,530:B-depart_time.time తర్వాత:B-depart_time.time_relative బోస్టన్:B-fromloc.city_name నుండి:O డల్లాస్:B-toloc.city_name కోటకు:I-toloc.city_name ఏ:O రకమైన:O విమానం:O ఎగురుతుందో:O తెలుసుకోవాలనుకుంటున్నాను:O 
+atis_flight,దయచేసి:O డెన్వర్:B-fromloc.city_name మరియు:O డల్లాస్:B-toloc.city_name మధ్య:O వారాంతపు:B-flight_mod అన్ని:O విమానాలను:O నాకు:O చూపించగలరా?:O 
+atis_flight,నేను:O రేపు:B-depart_date.today_relative ఉదయం:B-depart_time.period_of_day కొలంబస్:B-fromloc.city_name నుండి:O నాష్‌విల్లేకి:B-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,1991:B-depart_date.year జూలై:B-depart_date.month_name ఇరవై:B-depart_date.day_number ఐదవ:I-depart_date.day_number తేదీన:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O బాల్టిమోర్‌కు:B-toloc.city_name ప్రయాణించే:O విమానాలలో:O ఏది:O అతి:B-mod తక్కువ:O సంఖ్యలో:O ప్రయాణికులను:O తీసుకువెళుతుంది:O 
+atis_flight,న్యూయార్క్:B-toloc.city_name నుండి:O మయామికి:B-fromloc.city_name మంగళవారం:B-depart_date.day_name బయలుదేరే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O మరియు:O ఆదివారం:B-depart_date.day_name బయలుదేరే:O మయామి:B-fromloc.city_name నుండి:O న్యూయార్క్‌కి:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,సాధారణ:B-airport_name మిచెల్:I-airport_name ఇంటర్నేషనల్‌లో:O టేకాఫ్‌లు:O మరియు:O ల్యాండింగ్‌లను:O జాబితా:O చేయండి:O 
+atis_flight,మీరు:O నాకు:O అట్లాంటా:B-fromloc.city_name నుండి:O బోస్టన్:B-toloc.city_name విమానాల:O జాబితాను:O ఇవ్వగలరా?:O 
+atis_airfare,బాల్టిమోర్:B-fromloc.city_name నుండి:O డల్లాస్:B-toloc.city_name వరకు:O మొదటి:O తరగతి:I-class_type ఛార్జీలను:O నాకు:O చూపించు:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name విమాన:O సమాచారం:O 
+atis_flight,ఫిలడెల్ఫియాలోని:B-fromloc.city_name విమానాశ్రయం:O నుండి:O డౌన్‌టౌన్‌కి:O ఎలా:O వెళ్లాలో:O మీరు:O నాకు:O చెప్పగలరా:O 
+atis_flight,దయచేసి:O బాల్టిమోర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name విమానాలు:O 
+atis_flight,లాస్:B-fromloc.city_name ఏంజిల్స్:I-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కు:B-toloc.city_name సోమవారం:B-arrive_date.day_name పిట్స్‌బర్గ్‌కు:B-toloc.city_name వచ్చే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,సోమవారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day డల్లాస్:B-fromloc.city_name నుండి:O బోస్టన్‌కు:B-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_flight,నేను:O పిట్స్‌బర్గ్‌లో:B-stoploc.city_name ఒక:B-flight_stop స్టాప్‌తో:O బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name అమెరికన్:B-airline_name ఎయిర్‌లైన్స్‌లో:O ఫ్లైట్:O బుక్:O చేయాలనుకుంటున్నాను:O 
+atis_flight,ఒంటారియో:O కాలిఫోర్నియా:B-fromloc.state_name నుండి:O ఓర్లాండో:B-toloc.city_name ఫ్లోరిడాకు:B-toloc.state_name అతి:O తక్కువ:O విమానం:O 
+atis_flight,న్యూయార్క్:B-fromloc.city_name మరియు:O మయామి:B-toloc.city_name మధ్య:O విమానాలు:O 
+atis_city,నేషనల్:O మరియు:O కెనడియన్:B-airline_name ఎయిర్‌లైన్స్:O ఇంటర్నేషనల్:O ద్వారా:O అందించబడిన:O నగరాన్ని:O నాకు:O చూపించు:O 
+atis_flight,ఉదయం:B-depart_time.period_of_day 823:B-depart_time.time తర్వాత:B-depart_time.time_relative పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O నెవార్క్‌కి:B-toloc.city_name ఏ:O విమానాలు:O వెళ్తాయి:O 
+atis_flight,నాకు:O శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O లా:B-airport_name గార్డియాకు:O నాన్‌స్టాప్:B-flight_stop అన్ని:O విమానాలను:O చూపించు:O 
+atis_flight,అమెరికన్:B-airline_name ఎయిర్‌లైన్‌ని:O ఉపయోగించి:O బోస్టన్:B-fromloc.city_name మరియు:O ఓక్‌లాండ్:B-toloc.city_name అలాగే:O బోస్టన్:B-fromloc.city_name మరియు:O ఓక్‌లాండ్:B-toloc.city_name మధ్య:O రోజువారీ:B-flight_days విమానాలను:I-airline_name జాబితా:O చేయండి:O 
+atis_ground_service,బోస్టన్‌లోని:B-city_name భూ:O రవాణా:O గురించి:O నాకు:O చూపించు:O 
+atis_quantity,బోస్టన్:B-fromloc.city_name నుండి:O అట్లాంటాకి:B-toloc.city_name ఎన్ని:O నాన్‌స్టాప్:B-flight_stop విమానాలు:O ఉన్నాయో:O దయచేసి:O నాకు:O చెప్పండి:O 
+atis_flight,అమెరికన్:B-airline_name ఎయిర్‌లైన్స్‌లో:O ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O డల్లాస్‌కు:B-toloc.city_name విమానాలను:I-airline_name జాబితా:O చేయండి:O 
+atis_airfare,డల్లాస్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name డెల్టా:B-airline_name విమానాల:O ఛార్జీలను:O నాకు:O చూపించు:O 
+atis_aircraft,క్లీవ్‌ల్యాండ్:B-fromloc.city_name నుండి:O డల్లాస్‌కు:B-toloc.city_name మధ్యాహ్నానికి:B-depart_time.time ముందు:B-depart_time.time_relative బయలుదేరే:O విమానాలలో:O ఏ:O రకమైన:O విమానాలను:O ఉపయోగిస్తారు:O 
+atis_flight,మీకు:O ఆగస్టు:B-depart_date.month_name ఇరవై:B-depart_date.day_number ఏడవ:I-depart_date.day_number తేదీన:O వాషింగ్టన్:B-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name రాత్రి:B-depart_time.period_of_day విమానం:O ఉందా?:O 
+atis_flight,ఓక్‌లాండ్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కు:B-toloc.city_name నాన్‌స్టాప్:B-flight_stop విమానాలు:O అందుబాటులో:O ఉన్నాయి:O 
+atis_flight,వచ్చే:O సోమవారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకి:I-toloc.city_name ఏవైనా:O విమానాలు:O ఉన్నాయా?:O 
+atis_flight,దయచేసి:O మయామి:B-fromloc.city_name నుండి:O న్యూయార్క్‌కి:O తిరిగి:B-round_trip వచ్చే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_ground_service,బాల్టిమోర్‌లో:B-city_name భూ:O రవాణా:O 
+atis_flight,జూన్:B-depart_date.month_name పదహారవ:B-depart_date.day_number తేదీన:O డెన్వర్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name చౌకైన:B-cost_relative విమానాలను:O నాకు:O చూపించు:O 
+atis_ground_fare,శాన్:B-city_name ఫ్రాన్సిస్కోలో:I-city_name అద్దె:B-transport_type కారు:I-transport_type ధరలు:O ఏమిటి:O 
+atis_abbreviation,ధర:O కోడ్:O qx:B-fare_basis_code వివరించండి:O 
+atis_flight,నేను:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,నేను:O సిన్సినాటి:B-stoploc.city_name ద్వారా:O కొలంబస్:B-fromloc.city_name నుండి:O ఫీనిక్స్:B-toloc.city_name వరకు:O విమానాన్ని:O కనుగొనడానికి:O ప్రయత్నిస్తున్నాను:O 
+atis_flight,సాల్ట్:B-fromloc.city_name లేక్:I-fromloc.city_name సిటీ:O నుండి:O సెయింట్‌కి:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు.:O బుధవారం:B-depart_date.day_name పీటర్స్‌బర్గ్:I-toloc.city_name 
+atis_ground_service,వాషింగ్టన్:B-city_name డిసిలోని:O అన్ని:O భూ:O రవాణాను:O నాకు:O చూపించు:O 
+atis_airfare,నేను:O పిట్స్‌బర్గ్‌లో:B-stoploc.city_name స్టాప్‌ఓవర్‌తో:O డెన్వర్:B-fromloc.city_name నుండి:O అట్లాంటాకి:B-toloc.city_name టిక్కెట్‌ని:O పొందాలనుకుంటున్నాను:O 
+atis_airline,శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O బోస్టన్‌కు:B-toloc.city_name వెళ్లే:O విమానయాన:O సంస్థలను:O నాకు:O చూపించు:O 
+atis_flight,మీకు:O బోయింగ్:O 757లో:B-aircraft_code అట్లాంటా:B-fromloc.city_name నుండి:O బాల్టిమోర్‌కి:B-toloc.city_name నాన్‌స్టాప్:B-flight_stop విమానం:O ఉందా:O 
+atis_flight,అట్లాంటా:B-fromloc.city_name నుండి:O బాల్టిమోర్‌కి:B-toloc.city_name సోమవారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day బయలుదేరే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,మీరు:O టొరంటో:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name డియాగో:I-toloc.city_name వరకు:O అన్ని:O విమానాలను:O జాబితా:O చేయగలరా:O 
+atis_flight,దయచేసి:O నాకు:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name నేరుగా:O ఉదయం:B-depart_time.period_of_day విమానాలను:O అందించండి:O 
+atis_ground_service,బాల్టిమోర్:B-airport_name విమానాశ్రయంలో:I-airport_name లిమోసిన్:B-transport_type సేవ:O అందుబాటులో:O ఉందా?:O 
+atis_flight,టొరంటో:B-fromloc.city_name నుండి:O సాల్ట్:B-toloc.city_name లేక్:I-toloc.city_name సిటీకి:O సాయంత్రం:I-depart_time.time 6:B-depart_time.time గంటల:O తర్వాత:B-depart_time.time_relative టొరంటో:B-fromloc.city_name బయలుదేరే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_ground_service,నేను:O డల్లాస్‌లో:B-city_name అద్దె:B-transport_type కారుని:I-transport_type పొందవచ్చా:O 
+atis_flight,న్యూయార్క్:B-fromloc.city_name నగరం:I-fromloc.city_name నుండి:O మాంట్రియల్:B-toloc.city_name కెనడాకు:B-toloc.country_name గురువారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day బయలుదేరే:O విమానాల:O జాబితా:O నాకు:O కావాలి:O 
+atis_airfare,నేను:O బాల్టిమోర్:B-fromloc.city_name నుండి:O డెన్వర్:B-toloc.city_name వరకు:O చౌకైన:B-cost_relative వన్:B-round_trip వే:O ఛార్జీని:O కనుగొనాలనుకుంటున్నాను:O 
+atis_flight,దయచేసి:O బాల్టిమోర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకి:B-toloc.city_name విమానాలు:O చూపించు:O 
+atis_airfare,డల్లాస్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name అమెరికన్:B-airline_name ఎయిర్‌లైన్స్:O ఫ్లైట్:O 71:B-flight_number ఎంత:O ఖర్చు:O అవుతుంది:O 
+atis_flight,సెయింట్:B-fromloc.city_name నుండి:O షార్లెట్‌కి:B-toloc.city_name వచ్చిన:O తొలి:O విమానం:O ఏది.:O శుక్రవారం:B-arrive_date.day_name లూయిస్:I-fromloc.city_name 
+atis_flight,న్యూయార్క్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name జోస్:I-toloc.city_name వరకు:O చౌకైన:B-cost_relative విమానాల:O రౌండ్:B-round_trip ట్రిప్‌ను:O నాకు:O చూపించు:O 
+atis_airfare,ఇండియానాపోలిస్:B-fromloc.city_name నుండి:O మెంఫిస్:B-toloc.city_name వరకు:O మొదటి:O తరగతి:I-class_type రౌండ్:B-round_trip ట్రిప్:I-round_trip విమాన:O ఛార్జీలు:O 
+atis_ground_service,శాన్:B-city_name ఫ్రాన్సిస్కోలో:I-city_name భూ:O రవాణా:O గురించి:O చెప్పండి:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O ఓక్లాండ్:B-toloc.city_name వరకు:O 12:B-arrive_time.time గంటల:I-arrive_time.time తర్వాత:B-arrive_time.time_relative వచ్చే:O విమానాలను:O చూపండి:O 
+atis_flight,దయచేసి:O జూలై:B-depart_date.month_name ఇరవై:B-depart_date.day_number మూడవ:I-depart_date.day_number తేదీన:O డల్లాస్:B-fromloc.city_name ఫోర్ట్:O వర్త్:O నుండి:O dc:B-toloc.state_code బాల్టిమోర్‌కు:B-toloc.city_name విమానాలను:O జాబితా:O చేయండి:O 
+atis_flight,నేను:O సోమవారం:B-depart_date.day_name జూలై:B-depart_date.month_name ఎనిమిదో:B-depart_date.day_number తేదీన:O ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O డల్లాస్‌కి:B-toloc.city_name శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_quantity,జూలై:B-arrive_date.month_name ఇరవై:B-arrive_date.day_number ఏడవ:I-arrive_date.day_number తేదీన:O డల్లాస్:B-fromloc.city_name నుండి:O ఓక్‌లాండ్‌కి:B-toloc.city_name ఎన్ని:O నాన్‌స్టాప్:B-flight_stop విమానాలు:O వెళ్తున్నాయి:O 
+atis_flight,పిట్స్‌బర్గ్‌ను:B-fromloc.city_name వదిలి:O జూన్:B-arrive_date.month_name పద్నాలుగో:B-arrive_date.day_number తేదీన:O బాల్టిమోర్‌కు:B-toloc.city_name చేరుకునే:O అతి:B-mod చిన్న:O సీటింగ్:O సామర్థ్యం:O కలిగిన:O విమానాన్ని:O నాకు:O చూపించు:O 
+atis_flight,ఇరవై:B-depart_date.day_number ఏడవ:I-depart_date.day_number తేదీన:O లాంగ్:B-fromloc.city_name బీచ్:I-fromloc.city_name నుండి:O కొలంబస్‌కి:B-toloc.city_name విమానం:O 
+atis_flight,కాంటినెంటల్:B-airline_name ఎయిర్‌లైన్స్:O కోసం:O సర్వీస్:O యొక్క:O తరగతులు:O ఏమిటి:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O bwiకి:B-toloc.airport_code అల్పాహారం:O అందించే:O తొలి:O విమానం:O ఏది:O 
+atis_flight,డెన్వర్‌లో:B-stoploc.city_name స్టాప్‌ఓవర్‌తో:O వాషింగ్టన్:B-fromloc.city_name డిసి:O నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name విమానాలను:O నాకు:O చూపించు:O 
+atis_airline,అట్లాంటా:B-fromloc.city_name నుండి:O ఏ:O ఎయిర్‌లైన్స్:O ఎగురుతుంది:O 
+atis_flight,జూన్:B-depart_date.month_name ఇరవై:B-depart_date.day_number తొమ్మిదవ:I-depart_date.day_number తేదీన:O హ్యూస్టన్:B-fromloc.city_name నుండి:O మెంఫిస్‌కు:B-toloc.city_name విమానాలను:O జాబితా:O చేయండి:O 
+atis_flight,నాకు:O బుధవారం:B-depart_date.day_name శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name ఆలస్యంగా:B-flight_mod విమానం:O కావాలి:O 
+atis_aircraft,బోస్టన్:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O ఉదయం:I-depart_time.time 9:B-depart_time.time గంటలకు:O ఏ:O రకమైన:O విమానం:O బయలుదేరుతుంది:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name విమానాలు:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name డెన్వర్:B-fromloc.city_name లేదా:B-or పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకి:B-toloc.city_name వచ్చే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,నేను:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name ఉదయం:I-depart_time.time 9:B-depart_time.time గంటలకు:O ముందు:B-depart_time.time_relative బయలుదేరే:O విమానాల:O కోసం:O చూస్తున్నాను:O 
+atis_distance,బోస్టన్:B-toloc.city_name విమానాశ్రయం:I-fromloc.airport_name నుండి:O బోస్టన్:B-toloc.city_name దూరం:O ఎంత:O 
+atis_airfare,దయచేసి:O బోస్టన్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name చౌకైన:B-cost_relative వన్:B-round_trip వే:O ఛార్జీని:O నేను:O కోరుకుంటున్నాను:O 
+atis_flight,ఆదివారం:B-depart_date.day_name న్యూయార్క్:B-fromloc.city_name నగరం:I-fromloc.city_name మరియు:O లాస్:B-toloc.city_name వెగాస్:I-toloc.city_name మధ్య:O విమానాలను:O నాకు:O చూపించు:O 
+atis_airfare,బోస్టన్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వరకు:O చౌకైన:B-cost_relative వన్:B-round_trip వే:O ఛార్జీ:O ఏమిటి:O 
+atis_flight,శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O డెన్వర్‌కు:B-toloc.city_name వారాంతపు:B-flight_mod విమానాలు:O 
+atis_flight,నాష్‌విల్లే:B-fromloc.city_name నుండి:O సెయింట్‌కి:B-toloc.city_name నాన్‌స్టాప్:B-flight_stop విమానాలను:O నాకు:O చూపించు.:O లూయిస్:I-toloc.city_name 
+atis_flight,నేను:O మయామి:B-fromloc.city_name ఫ్లోరిడా:B-fromloc.state_name నుండి:O లాస్:B-toloc.city_name వెగాస్:I-toloc.city_name నెవాడాకు:B-toloc.state_name ఆదివారం:B-arrive_date.day_name సాయంత్రం:I-arrive_time.time 4:B-arrive_time.time గంటలలోపు:O వచ్చే:O విమానాన్ని:O కనుగొనాలనుకుంటున్నాను:O 
+atis_flight,డల్లాస్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వరకు:O తక్కువ:O ధరను:O నాకు:O చూపించు:O 
+atis_flight,నేను:O జూలై:B-depart_date.month_name పదిహేనవ:B-depart_date.day_number తేదీన:O డెన్వర్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name చౌకైన:B-cost_relative వన్‌వే:O విమానాన్ని:O బుక్:O చేయాలనుకుంటున్నాను:O 
+atis_quantity,ఆగస్టు:B-depart_date.month_name పద్దెనిమిదో:B-depart_date.day_number తేదీన:O శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name మరియు:O ఫిలడెల్ఫియా:B-toloc.city_name మధ్య:O ఎన్ని:O విమానాలు:O ఉన్నాయి:O 
+atis_flight,దయచేసి:O బుధవారం:B-depart_date.day_name ఓక్లాండ్:B-fromloc.city_name కాలిఫోర్నియా:B-fromloc.state_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name అందుబాటులో:O ఉన్న:O అన్ని:O విమానాలను:O జాబితా:O చేయండి:O 
+atis_airfare,బాల్టిమోర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకి:I-toloc.city_name ఫస్ట్:B-class_type క్లాస్:I-class_typefirst టికెట్:O ఎంత:O 
+atis_flight,న్యూయార్క్:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name వెగాస్‌కు:O ఆదివారం:B-depart_date.day_name నాన్‌స్టాప్‌గా:B-flight_stop ప్రయాణించే:O అన్ని:O విమానాలను:O జాబితా:O చేయండి:O మరియు:O ఆదివారం:B-depart_date.day_name నాన్‌స్టాప్‌గా:B-flight_stop ప్రయాణించే:O మెంఫిస్:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name వేగాస్‌కు:I-toloc.city_name విమానాలను:O జాబితా:O చేయండి:O 
+atis_flight,లాస్:B-fromloc.city_name వెగాస్:I-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name వెళ్లే:O తాజా:B-flight_mod విమానాన్ని:O నాకు:O చూపించు:O 
+atis_flight,నాకు:O అట్లాంటా:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O విమానాల:O గురించి:O సమాచారం:O కావాలి:O బుధవారం:B-depart_date.day_name సాయంత్రం:I-depart_time.time 4:B-depart_time.time గంటల:O తర్వాత:B-depart_time.time_relative విమానాల:O గురించి:O నాకు:O సమాచారం:O ఇవ్వండి:O 
+atis_flight,నేను:O కాన్సాస్:B-fromloc.city_name నగరం:I-fromloc.city_name నుండి:O చికాగోకి:B-toloc.city_name వచ్చే:O బుధవారం:B-depart_date.day_name బయలుదేరి:O మరుసటి:O రోజు:I-return_date.date_relative తిరిగి:O రావాలి:O 
+atis_flight,నాకు:O సెయింట్:B-fromloc.city_name నుండి:O విమానం:O కావాలి.:O గురువారం:B-depart_date.day_name పీటర్స్‌బర్గ్:I-fromloc.city_name నుండి:O మయామికి:B-toloc.city_name 
+atis_flight,మయామి:B-fromloc.city_name ఫ్లోరిడా:B-fromloc.state_name నుండి:O షార్లెట్:B-toloc.city_name నార్త్:O కరోలినాకు:I-toloc.state_name చౌకైన:B-cost_relative వన్:B-round_trip వే:O విమానాన్ని:O జాబితా:O చేయండి:O 
+atis_flight,బుధవారం:B-depart_date.day_name నాడు:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name మాలో:O విమానాలు:O ఏవైనా:O ఉన్నాయా?:O 
+atis_flight,అట్లాంటా:B-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name అతి:O తక్కువ:O ఖర్చుతో:O కూడిన:O విమానం:O ఏది:O 
+atis_flight,ఓర్లాండో:B-fromloc.city_name నుండి:O కాన్సాస్:B-toloc.city_name నగరానికి:I-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name నుండి:O డల్లాస్‌కి:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name మొదటి:O విమానాన్ని:O చూపించు:O 
+atis_flight,నేను:O బుధవారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day అట్లాంటా:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name ప్రారంభ:B-flight_mod ఉదయం:B-depart_time.period_of_day విమానాన్ని:O కోరుకుంటున్నాను:O 
+atis_aircraft,బోస్టన్:B-fromloc.city_name మరియు:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కో:I-toloc.city_name మధ్య:O ప్రయాణించే:O విమానాల:O రకాలను:O జాబితా:O చేయండి:O 
+atis_flight,నేను:O బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name మొదటి:O విమానాలు:O గురువారం:B-depart_date.day_name 
+atis_flight,దయచేసి:O సెయింట్:B-fromloc.city_name నుండి:O శుక్రవారం:B-depart_date.day_name రాత్రి:B-depart_time.period_of_day విమానాలను:O జాబితా:O చేయండి.:O పాల్:I-fromloc.city_name టు:O కాన్సాస్:B-toloc.city_name సిటీ:O 
+atis_capacity,పిట్స్‌బర్గ్:B-fromloc.city_name మరియు:O బాల్టిమోర్:B-toloc.city_name మధ్య:O విమానాల:O సీటింగ్:O సామర్థ్యాలు:O ఏమిటి:O 
+atis_flight,నాకు:O కాన్సాస్:B-fromloc.city_name సిటీ:O నుండి:O చికాగోకి:B-toloc.city_name విమానం:O కావాలిO అది:O బుధవారం:B-depart_date.day_name బయలుదేరి:O సాయంత్రం:I-arrive_time.time 7:B-arrive_time.time గంటలకు:O చికాగో:B-toloc.city_name చేరుకుంటుంది:O 
+atis_ground_service,విమానాశ్రయం:O నుండి:O డౌన్‌టౌన్:O బోస్టన్:B-toloc.city_name వరకు:O భూ:O రవాణాపై:O సమాచారం:O 
+atis_flight,సాయంత్రం:I-depart_time.time 5:B-depart_time.time గంటల:O తర్వాత:B-depart_time.time_relative నెవార్క్:B-fromloc.city_name నుండి:O బోస్టన్‌కు:B-toloc.city_name ఏ:O విమానాలు:O వెళ్తాయి:O 
+atis_flight,వచ్చే:O మంగళవారం:B-depart_date.day_name 6:B-depart_time.time గంటల:I-depart_time.time తర్వాత:B-depart_time.time_relative బోస్టన్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name ఏ:O విమానాలు:O వెళ్తాయి:O 
+atis_flight,నేను:O బోస్టన్:B-fromloc.city_name నుండి:O బాల్టిమోర్‌కి:B-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,నేను:O ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O డల్లాస్‌కు:B-toloc.city_name అమెరికన్‌లో:B-airline_name విమానాలు:O ఉదయం:I-arrive_time.time 1145:B-arrive_time.time లోపు:O రావాలనుకుంటున్నాను:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O బాల్టిమోర్‌కు:B-toloc.city_name వెళ్లి:O జూలై:B-arrive_date.month_name నాలుగవ:B-arrive_date.day_number తేదీన:O చేరుకునే:O తొలి:O యునైటెడ్:O ఎయిర్‌లైన్స్:O విమానం:O ఏది:O 
+atis_flight,వన్:B-round_trip వే:O ఎకానమీ:O ఛార్జీలతో:O అట్లాంటా:B-fromloc.city_name నుండి:O ఓక్‌లాండ్‌కు:B-toloc.city_name ఏ:O విమానాలు:O అందుబాటులో:O ఉన్నాయి:O 
+atis_aircraft,యునైటెడ్:O ఏ:O విమానాలు:O ఉపయోగిస్తాయి:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name వెగాస్‌కి:O వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,శాన్:B-fromloc.city_name జోస్:I-fromloc.city_name మరియు:O హ్యూస్టన్:B-toloc.city_name మధ్య:O విమానాలను:O జాబితా:O చేయండి:O 
+atis_flight,బోస్టన్:B-fromloc.city_name మరియు:O డల్లాస్:B-toloc.city_name మధ్య:O నాన్‌స్టాప్:B-flight_stop విమానాలను:O కనుగొనండి:O 
+atis_airfare,బోస్టన్:B-fromloc.city_name నుండి:O ఓక్లాండ్:B-toloc.city_name వరకు:O చౌకైన:B-cost_relative వన్:B-round_trip వే:O ఛార్జీని:O కనుగొనండి:O 
+atis_flight,నేను:O రేపు:B-depart_date.today_relative శాన్:B-fromloc.city_name డియాగో:I-fromloc.city_name నుండి:O టొరంటోకి:B-toloc.city_name విమానంలో:O వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,అమెరికా:B-airline_name పశ్చిమాన:O మే:B-depart_date.month_name ఇరవై:B-depart_date.day_number రెండు:I-depart_date.day_number శనివారం:B-depart_date.day_name కాన్సాస్:B-fromloc.city_name సిటీ:O నుండి:O బర్‌బ్యాంక్‌కి:B-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_flight,ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కు:B-toloc.city_name వారాంతపు:O ప్రారంభ:B-flight_mod విమానాలు:O ఏమిటి:O 
+atis_flight,ఇండియానాపోలిస్:B-fromloc.city_name నుండి:O సీటెల్:B-toloc.city_name వాషింగ్టన్‌కు:B-toloc.state_name విమానాలు:O 
+atis_flight,గురువారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day అట్లాంటా:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O విమానాలు:O 
+atis_flight,ఫీనిక్స్:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name వేగాస్:I-toloc.city_name వరకు:O విమానాలు:O 
+atis_flight,ఇప్పుడు:O శనివారం:B-depart_date.day_name నాడు:O డెన్వర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_airfare,దయచేసి:O వచ్చే:O ఆదివారం:B-depart_date.day_name ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O డెన్వర్:B-toloc.airport_name విమానాశ్రయానికి:I-toloc.airport_name వెళ్లే:O అన్ని:O విమానాల:I-toloc.airport_name ధరలను:O నాకు:O తెలియజేయండి:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,ఈస్టర్న్:O ఫ్లైట్:O 825లో:B-flight_number అట్లాంటా:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name ఎగురుతున్నప్పుడు:O అది:O 555:B-depart_time.time వద్ద:O బయలుదేరినప్పుడు:O విమానంలో:O ఏ:O రకమైన:O విమానం:O ఉపయోగించబడుతుందో:O మీరు:O నాకు:O చెప్పగలరా:O 
+atis_flight,రేపు:B-depart_date.today_relative బర్‌బ్యాంక్:B-fromloc.city_name నుండి:O మిల్వాకీకి:B-toloc.city_name ఏ:O విమానాలు:O బయలుదేరుతాయి:O 
+atis_airline,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name ఎగురుతున్న:O అన్ని:O విమానయాన:O సంస్థలను:O చూపించు:O 
+atis_ground_service,మిల్వాకీ:B-airport_name విమానాశ్రయం:I-airport_name నుండి:O డౌన్‌టౌన్:O ప్రాంతానికి:O భూ:O రవాణా:O ఉంది:O 
+atis_flight,నేను:O అట్లాంటా:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name నాన్‌స్టాప్‌గా:B-flight_stop ప్రయాణించాలనుకుంటున్నాను:O 
+atis_flight,శుక్రవారం:B-depart_date.day_name వాషింగ్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name చౌకైన:B-cost_relative విమానం:O ఏది:O 
+atis_flight_time,మీరు:O ఆగస్టు:B-depart_date.month_name పదిహేనవ:B-depart_date.day_number తేదీన:O dfwకి:B-toloc.airport_code అమెరికన్:B-airline_name మరియు:O డెల్టా:B-airline_name విమానాల:O షెడ్యూల్‌ను:B-flight_time నాకు:O ఇవ్వగలరా:O 
+atis_airfare,బాల్టిమోర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name ఈ:B-depart_date.today_relative విమానాల:O ధర:O ఎంత:O 
+atis_flight,నేను:O డల్లాస్‌లో:B-stoploc.city_name స్టాప్‌ఓవర్‌తో:O ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name ప్రయాణించాలనుకుంటున్నాను:O 
+atis_flight,డల్లాస్:B-fromloc.city_name ఫోర్ట్:O నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కో:I-toloc.city_name లేదా:B-or ఓక్‌లాండ్‌కి:B-toloc.city_name సాయంత్రం:I-depart_time.time 7:B-depart_time.time గంటల:O తర్వాత:B-depart_time.time_relative బయలుదేరే:O అన్ని:O విమానాలను:O నేరుగా:O మరియు:O కనెక్ట్:O చేసే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O డల్లాస్‌కి:B-toloc.city_name వెళ్లే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,డల్లాస్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name మధ్యాహ్నం:B-depart_time.period_of_day 4:B-depart_time.time తర్వాత:B-depart_time.time_relative బయలుదేరండి:O 
+atis_flight,నేను:O డెన్వర్:B-fromloc.city_name మరియు:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కో:I-toloc.city_name మధ్య:O సంబంధాన్ని:O ఏర్పరచుకోవడానికి:O ప్రయత్నిస్తున్నాను:O ఆ:O రెండింటి:O మధ్య:O డెల్టా:B-airline_name ఎయిర్‌లైన్:O ఎగురుతుంది:O 
+atis_flight,షార్లెట్:B-fromloc.city_name నుండి:O మిన్నియాపాలిస్‌కు:B-toloc.city_name మధ్యాహ్నం:O 3:B-depart_time.time గంటలకు:O విమానం:O ఉందా?:O 
+atis_flight,లాంగ్:B-fromloc.city_name బీచ్:I-fromloc.city_name నుండి:O నాష్‌విల్లేకు:B-toloc.city_name విమానాలు:O 
+atis_flight,లాంగ్:B-fromloc.city_name బీచ్:I-fromloc.city_name నుండి:O మెంఫిస్‌కి:B-toloc.city_name చౌకైన:B-cost_relative విమానం:O ఏది:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O డెన్వర్:B-toloc.city_name వరకు:O భోజనం:O అందించే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,లాస్:B-toloc.city_name ఏంజిల్స్‌కు:O బుధవారం:B-depart_date.day_name నెవార్క్‌:B-fromloc.city_name నుండి:O బయలుదేరే:O తాజా:B-flight_mod విమానం:O ఏమిటి:O 
+atis_flight,ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O డల్లాస్‌కు:B-toloc.city_name విమానం:O శనివారం:B-arrive_date.day_name సాయంత్రం:I-arrive_time.time 4:B-arrive_time.time గంటలకు:O ముందు:B-arrive_time.time_relative చేరుకుంటుంది:O 
+atis_abbreviation,ఫేర్:O కోడ్:O f:B-fare_basis_code అంటే:O ఏమిటి:O 
+atis_quantity,ఎకానమీ:O క్లాస్‌కు:O ఎన్ని:O ఫేర్:O కోడ్‌లు:O ఉంటాయి:O 
+atis_airfare,బాల్టిమోర్:B-fromloc.city_name నుండి:O డల్లాస్:B-toloc.city_name వరకు:O చౌకైన:B-cost_relative రౌండ్:B-round_trip ట్రిప్:I-round_trip ఛార్జీని:O నాకు:O చూపించు:O 
+atis_flight,ఏ:O వాయువ్య:B-airline_name విమానాలు:O మధ్యాహ్నం:B-depart_time.time ముందు:B-depart_time.time_relative డెన్వర్‌లో:B-stoploc.city_name ఆగుతాయి:O 
+atis_airfare,అట్లాంటా:B-fromloc.city_name మరియు:O డల్లాస్:B-toloc.city_name మధ్య:O అత్యంత:B-cost_relative ఖరీదైన:I-cost_relative ఫస్ట్:B-class_type క్లాస్:I-class_typefirst టిక్కెట్లు:O ఏమిటి:O 
+atis_flight,కాంటినెంటల్‌లోని:O డెన్వర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name వెళ్లండి:O 
+atis_flight,నాకు:O న్యూయార్క్:B-fromloc.city_name నగరం:I-fromloc.city_name నుండి:O లాస్:B-toloc.city_name వెగాస్‌కి:O నాన్‌స్టాప్:B-flight_stop విమానాలు:O ఇవ్వండి:O 
+atis_airfare,పిట్స్‌బర్గ్:B-fromloc.city_name మరియు:O డెన్వర్:B-toloc.city_name మధ్య:O చౌకైన:B-cost_relative ఒక:B-round_trip మార్గం:I-round_trip ఏమిటి:O 
+atis_flight,కాంటినెంటల్:B-airline_name ఎయిర్‌లైన్‌లను:O ఉపయోగించి:O ఓక్‌లాండ్:B-fromloc.city_name నుండి:O బోస్టన్‌కు:B-toloc.city_name రోజువారీ:B-flight_days విమానాలను:I-airline_name జాబితా:O చేయండి:O 
+atis_flight,నేను:O bwi:B-fromloc.airport_code నుండి:O బోస్టన్:B-toloc.city_name లోగాన్‌కి:B-toloc.airport_name వెళ్లగలిగే:O తొలి:O విమానం:O ఏది:O 
+atis_flight,ఏ:O వాయువ్య:B-airline_name విమానయాన:O విమానాలు:O మధ్యాహ్నం:B-depart_time.time ముందు:B-depart_time.time_relative డెన్వర్:B-fromloc.city_name నుండి:O బయలుదేరుతాయి:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O నాన్‌స్టాప్:B-flight_stop విమానాలను:O జాబితా:O చేయండి:O 
+atis_flight,పిట్స్‌బర్గ్:B-fromloc.city_name మరియు:O ఫిలడెల్ఫియా:B-toloc.city_name మధ్య:B-arrive_time.period_of_day నాన్‌స్టాప్:B-flight_stop ఫ్లైట్:O మధ్యాహ్నం:B-arrive_time.period_of_day బయలుదేరి:O సాయంత్రం:I-arrive_time.time 5:B-arrive_time.time గంటలకు:O చేరుకోవాలనుకుంటున్నాను:O 
+atis_flight,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_meal,నేను:O అట్లాంటా:B-fromloc.city_name నుండి:O bwi:B-toloc.airport_code ఫ్లైట్:O ఈస్టర్న్:O 210లో:B-flight_number భోజనం:B-meal చేస్తానా:O 
+atis_flight,డెన్వర్‌కి:B-toloc.city_name అట్లాంటా:B-fromloc.city_name ఫ్లైట్:O కనెక్ట్:B-connect అవుతోంది:O 
+atis_airfare,డెన్వర్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name చౌకైన:B-cost_relative వన్‌వే:O టికెట్:O ఏది:O 
+atis_flight,నేను:O ఉదయాన్నే:B-depart_time.period_of_day బోస్టన్:B-fromloc.city_name మరియు:O వాషింగ్టన్:B-toloc.city_name మధ్య:O వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_flight,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O ఓక్‌లాండ్‌కి:B-toloc.city_name వెళ్లే:O చివరి:B-flight_mod విమానం:O ఏది:O 
+atis_flight,న్యూయార్క్:B-fromloc.city_name మరియు:O మయామి:B-toloc.city_name మధ్య:O అన్ని:O రౌండ్:B-round_trip ట్రిప్:I-round_trip విమానాలు:O ఫస్ట్:B-class_type క్లాస్:I-class_typefirst 
+atis_flight,బుధవారాలు:B-depart_date.day_name మరియు:O గురువారాల్లో:B-depart_date.day_name బోస్టన్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కు:B-toloc.city_name విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,జనవరి:B-depart_date.month_name మొదటి:O 1992లో:B-depart_date.year బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_flight,నేను:O డెన్వర్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name విమానంలో:O వెళ్లాలనుకుంటున్నాను:O 
+atis_flight,ఓక్‌లాండ్:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name వచ్చే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,నాకు:O మిల్వాకీ:B-fromloc.city_name నుండి:O సెయింట్‌కి:B-toloc.city_name విమానాలు:O ఇవ్వండి.:O లూయిస్:I-toloc.city_name ఆదివారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day బయలుదేరాడు:O 
+atis_flight,అవును:O జూలై:B-depart_date.month_name ఏడవ:B-depart_date.day_number తేదీన:O ఉదయం:B-depart_time.period_of_day అట్లాంటా:B-fromloc.city_name నుండి:O బోస్టన్‌కు:B-toloc.city_name ఏ:B-depart_date.day_number విమానాలు:O ఉపయోగించబడతాయి:O 
+atis_flight,మిల్వాకీలో:B-stoploc.city_name స్టాప్‌తో:O న్యూయార్క్:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name ఏంజిల్స్‌కి:I-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,నాకు:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకి:I-toloc.city_name విమానాలు:O చూపించు:O 
+atis_flight,రౌండ్:B-round_trip ట్రిప్:I-round_trip హ్యూస్టన్:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name వెగాస్:I-toloc.city_name నాన్‌స్టాప్:B-flight_stop 
+atis_flight,అంటారియో:B-fromloc.city_name నుండి:O మెంఫిస్‌కు:B-toloc.city_name తొలి:O విమానం:O ఏది:O 
+atis_airfare,డల్లాస్:B-fromloc.city_name నుండి:O అట్లాంటాకి:B-toloc.city_name అతి:B-cost_relative తక్కువ:O రౌండ్:B-round_trip ట్రిప్:I-round_trip ఛార్జీ:O ఏమిటి:O 
+atis_flight,బుధవారం:B-depart_date.day_name డెన్వర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name ఏ:O విమానాలు:O అందుబాటులో:O ఉన్నాయి:O 
+atis_airline,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O డెన్వర్‌కు:B-toloc.city_name వెళ్లే:O విమానయాన:O సంస్థలు:O సోమవారం:B-depart_date.day_name నాడు:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్తున్నాయని:O నాకు:O చూపించు:O 
+atis_flight,దయచేసి:O రేపు:B-depart_date.today_relative ఇండియానాపోలిస్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name డియాగోకి:I-toloc.city_name వెళ్లే:O అన్ని:O విమానాలను:O నాకు:O చూపించండి:O 
+atis_flight;atis_airfare,డెన్వర్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్:B-toloc.city_name వరకు:O అన్ని:O విమానాలు:O మరియు:O ఛార్జీలు:O గురువారం:B-depart_date.day_name నాడు:O మా:B-airline_name ఎయిర్:O నంబర్:O 1039లో:B-flight_number 
+atis_flight,డల్లాస్:B-fromloc.city_name నుండి:O బాల్టిమోర్‌కి:B-toloc.city_name అతి:O తక్కువ:O ఖరీదైన:I-cost_relative విమానాన్ని:O జాబితా:O చేయండి:O 
+atis_flight,గురువారం:B-depart_date.day_name సాయంత్రం:B-depart_time.period_of_day పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name ఏంజిల్స్‌కి:I-toloc.city_name విమానాలను:O నాకు:O ఇవ్వండి:O 
+atis_airfare,శుక్రవారం:B-depart_date.day_name బయలుదేరే:O వాషింగ్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకి:I-toloc.city_name ఫస్ట్:B-class_type క్లాస్:I-class_typefirst టికెట్:O ఎంత:O 
+atis_airfare,క్లీవ్‌ల్యాండ్:B-fromloc.city_name నుండి:O మయామికి:B-toloc.city_name మా:B-airline_name విమానంలో:O నాకు:O అతి:O తక్కువ:O ఖరీదైన:I-cost_relative ఫస్ట్:B-class_type క్లాస్:I-class_typefirst రౌండ్:B-round_trip ట్రిప్:I-round_trip టికెట్:O ఇవ్వండి:O 
+atis_flight,సరే:O నేను:O హ్యూస్టన్:B-fromloc.city_name నుండి:O సీటెల్‌కి:B-toloc.city_name ఫ్లైట్:O ఎక్కాలి:O 
+atis_flight,శనివారం:B-depart_date.day_name మే:B-depart_date.month_name ఇరవై:B-depart_date.day_number రెండు:I-depart_date.day_number నైరుతిలో:B-airline_name కాన్సాస్:B-fromloc.city_name నగరం:I-fromloc.city_name నుండి:O బర్‌బ్యాంక్‌కి:B-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_flight_time,దయచేసి:O నెవార్క్:B-fromloc.city_name నుండి:O బోస్టన్:B-toloc.city_name వరకు:O విమాన:B-flight_time సమయాలను:O జాబితా:O చేయండి:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name వరకు:O అన్ని:O విమానాలు:O 
+atis_airfare,డల్లాస్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వరకు:O విమానాల:O కోసం:O 400:B-fare_amount డాలర్ల:I-fare_amount కంటే:O తక్కువ:B-cost_relative ధరలను:O నాకు:O చూపించు:O 
+atis_flight,వచ్చే:O వారం:O మంగళవారం:B-depart_date.day_name అమెరికన్:B-airline_name ఎయిర్‌లైన్స్‌లో:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name ఫస్ట్:B-class_type క్లాస్:I-class_typefirst విమానం:I-airline_name 
+atis_flight,సెప్టెంబర్:B-depart_date.month_name పదిహేనవ:B-depart_date.day_number తేదీకి:O శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name మరియు:O ఫిలడెల్ఫియా:B-toloc.city_name మధ్య:O అన్ని:O విమానాలను:O చూపు:O 
+atis_flight,ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O డల్లాస్‌కు:B-toloc.city_name బయలుదేరిన:O తొలి:O అమెరికన్:B-airline_name ఎయిర్‌లైన్స్:O విమానం:O ఏది:O 
+atis_flight,నాకు:O గురువారం:B-depart_date.day_name అట్లాంటా:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O అన్ని:O విమానాలు:O కావాలి:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name తొలి:O విమానం:O ఏది:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,నేను:O వాషింగ్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్లాలిO కానీ:O నేను:O డల్లాస్‌లో:B-stoploc.city_name ఆగాలనుకుంటున్నానుO అలా:O చేసే:O విమానాల:O షెడ్యూల్‌ను:B-flight_time మీరు:O నాకు:O చెప్పగలరా:O 
+atis_flight,నేను:O బోస్టన్:B-fromloc.city_name నుండి:O ఓక్‌లాండ్‌కు:B-toloc.city_name అమెరికన్:B-airline_name ఫ్లైట్:O నంబర్:O 813లో:O ప్రయాణించానో:O లేదో:O నేను:O తెలుసుకోవాలనుకుంటున్నాను:O 
+atis_ground_service,అట్లాంటా:B-airport_name విమానాశ్రయంలో:I-airport_name విమానాశ్రయం:I-airport_name లిమోసిన్:B-transport_type ఉందా?:O 
+atis_flight,దయచేసి:O కాన్సాస్:B-fromloc.city_name నగరం:I-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name ఉదయం:B-depart_time.period_of_day విమానాలను:O జాబితా:O చేయండి:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వరకు:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name చౌకైన:B-cost_relative వన్:B-round_trip వే:O ఫ్లైట్:O ఏది:O 
+atis_flight,మిల్వాకీ:B-fromloc.city_name నుండి:O ఓర్లాండోకి:B-toloc.city_name బుధవారం:B-depart_date.day_name ఉదయం:B-depart_time.period_of_day బయలుదేరే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,ట్వా:O డెల్టా:B-airline_name లేదా:B-or కాంటినెంటల్‌లో:O మే:B-depart_date.month_name పన్నెండవ:B-depart_date.day_number తేదీన:O బుధవారం:B-depart_date.day_name క్లీవ్‌ల్యాండ్:B-fromloc.city_name నుండి:O ఇండియానాపోలిస్‌కు:B-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_quantity,ఫస్ట్:B-class_type క్లాస్:I-class_typefirst విమానాలతో:O కాంటినెంటల్:B-airline_name ఎన్ని:O నగరాలకు:O సేవలు:O అందిస్తోంది:O 
+atis_flight,ఈస్టర్న్:O ఫ్లైట్:O 825:B-flight_number అట్లాంటా:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name 555:B-depart_time.time వద్ద:O బయలుదేరుతుందిO ఆ:O విమానంలో:O ఏ:O రకమైన:O విమానం:O ఉపయోగించబడింది:O 
+atis_flight,ప్రేమ:B-fromloc.airport_name క్షేత్రం:O నుండి:O బయలుదేరే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_aircraft,టర్బోప్రాప్:O తర్వాత:O అతి:B-mod చిన్న:O విమానం:O ఏది:O 
+atis_flight,నాకు:O బాల్టిమోర్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name విమానాలు:O ఇవ్వండి:O 
+atis_flight,వాషింగ్టన్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name అమెరికన్:B-airline_name ఎయిర్‌లైన్:O విమానాల:I-flight_time సమాచారం:O తెల్లవారుజామున:O విమాన:I-flight_time సమయాలు:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకి:B-toloc.city_name విమానాలు:O చూపించు:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్లే:O విమానంలో:O 420కి:B-depart_time.time బయలుదేరే:O విమానంలో:O ఏ:O రకమైన:O విమానం:O ఉపయోగించబడుతుంది:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name భోజనంతో:B-meal పాటు:O తొలి:O విమాన:O సమాచారం:O తెలుసుకోవాలనుకుంటున్నాను:O 
+atis_airline,ఏ:O ఎయిర్‌లైన్స్:O ఈరోజు:B-depart_date.today_relative ఫస్ట్:B-class_type క్లాస్:I-class_typefirst విమానాలను:O కలిగి:O ఉన్నాయి:O 
+atis_ground_service,పిట్స్‌బర్గ్:B-city_name కోసం:O భూ:O రవాణా:O సమాచారాన్ని:O నాకు:O చూపించు:O 
+atis_aircraft;atis_flight;atis_flight_no,నేను:O డెట్రాయిట్:B-fromloc.city_name నుండి:O సెయింట్‌కి:B-toloc.city_name వెళ్లాలనుకుంటున్నాను.:O నార్త్‌వెస్ట్:O ఎయిర్‌లైన్స్‌లో:O పీటర్స్‌బర్గ్‌లో:I-toloc.city_name బయలుదేరిO ఉదయం:I-depart_time.time 9:B-depart_time.time గంటలకు:O బయలుదేరిO ఈ:B-depart_date.today_relative విమానం:O ఏ:O విమానాన్ని:O ఉపయోగిస్తుందో:O నాకు:O చెప్పండి:O మరియు:O ఫ్లైట్:O నంబర్:O చెప్పండి:O 
+atis_flight,మంగళవారం:B-depart_date.day_name న్యూయార్క్:B-toloc.city_name నుండి:O మయామికి:B-fromloc.city_name వెళ్లే:O మరియు:O ఆదివారం:B-depart_date.day_name మయామి:B-fromloc.city_name నుండి:O న్యూయార్క్:B-toloc.city_name వెళ్లే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name విమానాల:O సమాచారం:O 
+atis_flight,డల్లాస్‌లో:B-stoploc.city_name ఒక్క:O స్టాప్‌తో:O ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్లే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,నాకు:O బుధవారం:B-depart_date.day_name డెన్వర్:B-fromloc.city_name నుండి:O dcకి:B-toloc.state_code విమానాలను:O చూపించు:O 
+atis_flight,మీరు:O ఓర్లాండో:B-fromloc.city_name నుండి:O కాన్సాస్:B-toloc.city_name సిటీకి:O ఆపై:O మిన్నియాపాలిస్‌కి:B-toloc.city_name అన్ని:O రౌండ్:B-round_trip ట్రిప్:I-round_trip విమానాలను:O జాబితా:O చేయగలరా:O 
+atis_flight,లవ్:B-toloc.airport_name ఫీల్డ్:I-fromloc.airport_name నుండి:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,నాకు:O గురువారం:B-arrive_date.day_name ఉదయం:B-arrive_time.period_of_day బయలుదేరే:O ఇండియానాపోలిస్:B-fromloc.city_name నుండి:O టొరంటోకి:B-toloc.city_name నాన్‌స్టాప్:B-flight_stop ఫ్లైట్:O కావాలి:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O ఓక్‌లాండ్‌కి:B-toloc.city_name 12:B-arrive_time.start_time మరియు:O 1:B-arrive_time.end_time గంట:I-arrive_time.end_time మధ్య:O వచ్చే:O విమానాలను:O చూపించు:O 
+atis_flight,శనివారం:B-arrive_date.day_name మే:B-arrive_date.month_name ఇరవై:B-arrive_date.day_number రెండున:I-arrive_date.day_number కాన్సాస్:B-fromloc.city_name సిటీ:O నుండి:O బర్‌బ్యాంక్‌కి:B-toloc.city_name నాన్‌స్టాప్:B-flight_stop విమానాలు:O ఏవి:O వస్తాయి:O 
+atis_airfare,శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O సాల్ట్:B-toloc.city_name లేక్:I-toloc.city_name సిటీకి:O చౌకైన:B-cost_relative రౌండ్:B-round_trip ట్రిప్:I-round_trip ఛార్జీలను:O నాకు:O చూపించు:O 
+atis_flight,మంగళవారం:B-depart_date.day_name శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కు:B-toloc.city_name విమానాలను:O కూడా:O నాకు:O చూపించు:O 
+atis_airfare,బుధవారం:B-depart_date.day_name ఆగస్టు:B-depart_date.month_name ఇరవై:B-depart_date.day_number ఒకటవ:B-round_trip తేదీన:O శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name చౌకైన:B-cost_relative వన్:B-round_trip వే:O ఛార్జీ:O ఏమిటి:O 
+atis_flight,నాకు:O శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O న్యూయార్క్:B-toloc.city_name నాన్‌స్టాప్:B-flight_stop అన్ని:O విమానాలను:O చూపించు:O 
+atis_flight,మేము:O డెన్వర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name వెళ్తున్నాము:O 
+atis_flight,డెన్వర్‌లో:B-stoploc.city_name ఒక్క:O స్టాప్‌తో:O మయామి:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name డియాగోకి:I-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,సీటెల్:B-fromloc.city_name నుండి:O బోస్టన్‌కు:B-toloc.city_name నాన్‌స్టాప్:B-flight_stop లేదా:B-or కనెక్ట్:B-connect చేసే:O విమానాలు:O 
+atis_flight,మంగళవారం:B-depart_date.day_name డెన్వర్:B-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name విమానాలు:O చూపించు:O 
+atis_aircraft,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O బాల్టిమోర్:B-toloc.city_name వరకు:O ప్రయాణించడానికి:O అందుబాటులో:O ఉన్న:O అతి:B-mod చిన్న:O విమానం:O ఏది:O 
+atis_flight,నాకు:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O డిసికి:O విమానాలు:O చూపించు:O 
+atis_flight,బుధవారం:B-depart_date.day_name ఫీనిక్స్:B-fromloc.city_name నుండి:O మిల్వాకీకి:B-toloc.city_name వెళ్లే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,మే:B-depart_date.month_name ఇరవై:B-depart_date.day_number రెండు:I-depart_date.day_number శనివారం:B-depart_date.day_name లాస్:B-fromloc.city_name వేగాస్:I-fromloc.city_name నుండి:O బర్‌బ్యాంక్‌కి:B-toloc.city_name విమానాలు:O ఏమిటి:O 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకి:I-toloc.city_name వెళ్ళే:O మొదటి:O విమానం:O ఏది:O 
+atis_flight,న్యూయార్క్:B-fromloc.city_name నుండి:O మయామికి:B-toloc.city_name వెళ్లే:O అన్ని:O విమానాలు:O మంగళవారం:B-depart_date.day_name బయలుదేరి:O ఆదివారం:B-return_date.day_name తిరిగి:O వస్తాయని:O నాకు:O చూపించు:O 
+atis_flight,దయచేసి:O బోస్టన్:B-fromloc.city_name మరియు:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కో:I-toloc.city_name మధ్య:O నాన్‌స్టాప్:B-flight_stop అన్ని:O విమానాలను:O జాబితా:O చేయండి:O 
+atis_flight,డెన్వర్:B-fromloc.city_name నుండి:O వెస్ట్‌చెస్టర్:B-toloc.city_name కౌంటీకి:I-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_capacity,యునైటెడ్:O ఎయిర్‌లైన్స్:O ఉపయోగించే:O వివిధ:O విమానాల:I-airline_name సీటింగ్:O కెపాసిటీ:O ఎంత:O 
+atis_flight,వెస్ట్‌చెస్టర్:B-fromloc.city_name కౌంటీ:I-fromloc.city_name నుండి:O సిన్సినాటికి:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_airfare,బోస్టన్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కు:B-toloc.city_name అత్యంత:O తక్కువ:O ధర:O కలిగిన:O వన్:B-round_trip వే:O ఛార్జీ:O ఏమిటి:O 
+atis_airline,బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name ఏ:O విమానయాన:O సంస్థలు:O ఎగురుతున్నాయి:O 
+atis_abbreviation,కోడ్:O yn:O అంటే:O ఏమిటి:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name మీకు:O ఏ:O విమానాలు:O ఉన్నాయి:O 
+atis_ground_service,అట్లాంటా:B-toloc.city_name విమానాశ్రయం:I-fromloc.airport_name నుండి:O డౌన్‌టౌన్:O అట్లాంటాకు:B-toloc.city_name రవాణా:O సౌకర్యం:O ఉందా:O 
+atis_meal,డెల్టా:B-airline_name ఫ్లైట్:O 852లో:B-flight_number శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O డల్లాస్:B-toloc.city_name ఫోర్ట్:O వర్త్:O కు:O భోజనం:B-meal ఉందా:O 
+atis_airfare,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకి:I-toloc.city_name విమాన:O ఛార్జీలను:O నాకు:O చూపించు:O 
+atis_flight,నాకు:O పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O బాల్టిమోర్‌కి:B-toloc.city_name విమానాలు:O ఇవ్వండి:O 
+atis_flight,డల్లాస్:B-fromloc.city_name నుండి:O బోస్టన్‌కు:B-toloc.city_name వెళ్లే:O చివరి:B-flight_mod విమానం:O ఏది?:O 
+atis_flight,డల్లాస్‌లో:B-stoploc.city_name స్టాప్‌ఓవర్‌తో:O ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name ఏ:O విమానాలు:O వెళ్తాయి:O 
+atis_ground_service,దయచేసి:O నాకు:O డెన్వర్:B-city_name కోసం:O భూ:O రవాణా:O సమాచారాన్ని:O అందించండి:O 
+atis_ground_service,షార్లెట్‌లో:B-city_name ఏ:O భూ:O రవాణా:O అందుబాటులో:O ఉంది:O 
+atis_flight,పిట్స్‌బర్గ్:B-fromloc.city_name మరియు:O ఫోర్ట్:O వర్త్:O మధ్య:O ఉదయం:I-depart_time.start_time 10:B-depart_time.start_time మరియు:O మధ్యాహ్నం:O 3:B-depart_time.end_time గంటల:O మధ్య:O అందుబాటులో:O ఉన్న:O విమానాలు:O ఏమిటి:O 
+atis_aircraft,దయచేసి:O మధ్యాహ్నం:I-depart_time.time 12:B-depart_time.time గంటలలోపు:I-depart_time.time అట్లాంటా:B-fromloc.city_name నుండి:O డెన్వర్‌కి:B-toloc.city_name ఉపయోగించిన:O విమానం:O రకం:O చెప్పండి:O 
+atis_flight,దయచేసి:O శాన్:B-fromloc.city_name ఫ్రాన్సిస్కో:I-fromloc.city_name నుండి:O అమెరికన్:B-airline_name విమానాలు:O 
+atis_flight,నాకు:O ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name విమానాలు:O చూపించు:O 
+atis_airfare,అన్ని:O ఛార్జీల:O కోడ్‌లను:O ప్రదర్శిస్తుంది:O 
+atis_airfare,బాల్టిమోర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియా:B-toloc.city_name వరకు:O రౌండ్:B-round_trip ట్రిప్:I-round_trip ఛార్జీలు:O 1000:B-fare_amount డాలర్ల:I-fare_amount కంటే:O తక్కువ:B-cost_relative డెన్వర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియా:B-toloc.city_name వరకు:O రౌండ్:B-round_trip ట్రిప్:I-round_trip ఛార్జీలు:O 1000:B-fare_amount డాలర్ల:I-fare_amount కంటే:O తక్కువ:B-cost_relative పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియా:B-toloc.city_name వరకు:O రౌండ్:B-round_trip ట్రిప్:I-round_trip ఛార్జీలు:O 1000:B-fare_amount డాలర్ల:I-fare_amount కంటే:O తక్కువ:B-cost_relative 
+atis_flight,ఫిలడెల్ఫియా:B-fromloc.city_name మరియు:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కో:I-toloc.city_name మధ్య:O వచ్చే:O మంగళవారం:B-depart_date.day_name విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,నేను:O 500:B-fare_amount డాలర్లలోపు:I-fare_amount డెన్వర్‌కి:B-toloc.city_name వెళ్లాలనుకుంటున్నానుO దయచేసి:O పిట్స్‌బర్గ్:B-fromloc.city_name మరియు:O డెన్వర్:B-toloc.city_name మధ్య:O విమాన:O ఛార్జీలను:O నాకు:O చూపించు:O 
+atis_abbreviation,గా:O ఏమిటి:O 
+atis_airline,మీరు:O బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name విమానాలను:O కలిగి:O ఉన్న:O అన్ని:O విమానయాన:O సంస్థలను:O జాబితా:O చేయగలరా:O 
+atis_flight,నేను:O బోస్టన్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name మరియు:O అదే:O రోజులో:B-return_date.date_relative తిరిగి:O ఎలా:O వెళ్ళగలను:O మరియు:O అట్లాంటాలో:B-toloc.city_name నేలపై:O అత్యధిక:O గంటలు:O ఎలా:O గడపగలను:O 
+atis_flight,వచ్చే:O మంగళవారం:B-depart_date.day_name సాయంత్రం:I-depart_time.time 7:B-depart_time.time గంటలకు:O షార్లెట్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name బయలుదేరే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,నాకు:O ఇప్పుడు:O శాన్:B-fromloc.city_name జోస్:I-fromloc.city_name నుండి:O హ్యూస్టన్‌కి:O నాల్గవ:B-depart_date.day_number ఆదివారం:B-depart_date.day_name బయలుదేరాల్సిన:O విమానం:O కావాలి:O 
+atis_flight,నేను:O బోస్టన్:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name నుండి:O సమాచారాన్ని:O పొందాలనుకుంటున్నాను:O 
+atis_ground_service,పిట్స్‌బర్గ్‌లో:B-city_name ఏ:O భూ:O రవాణా:O అందుబాటులో:O ఉంది:O 
+atis_airline,ఏ:O ఎయిర్‌లైన్స్:O బోస్టన్:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O ఎగురుతుంది:O 
+atis_flight,బాల్టిమోర్:B-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,వచ్చే:O వారం:O బుధవారం:B-depart_date.day_name సాయంత్రం:I-depart_time.time 6:B-depart_time.time గంటల:O తర్వాత:B-depart_time.time_relative బోస్టన్:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name మీకు:O ఏ:O విమానాలు:O ఉన్నాయి:O 
+atis_flight,లవ్:B-toloc.airport_name ఫీల్డ్:I-fromloc.airport_name నుండి:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,నాకు:O రేపు:B-depart_date.today_relative సాయంత్రం:B-depart_time.period_of_day బయలుదేరే:O నెవార్క్:B-fromloc.city_name నుండి:O లాస్:B-toloc.city_name ఏంజిల్స్‌కి:I-toloc.city_name విమానం:O కావాలి:O 
+atis_flight,మాంట్రియల్:B-fromloc.city_name నుండి:O విమానాలు:O 
+atis_flight,ఫిలడెల్ఫియా:B-fromloc.city_name నుండి:O పిట్స్‌బర్గ్:B-toloc.city_name వరకు:O ఏ:O pm:O విమానాలు:O అందుబాటులో:O ఉన్నాయి:O 
+atis_flight,నాకు:O డెన్వర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియాకు:B-toloc.city_name విమానాలు:O చూపించు:O 
+atis_flight,నేను:O బోస్టన్:B-fromloc.city_name మరియు:O వాషింగ్టన్:B-toloc.city_name సెప్టెంబరు:B-depart_date.month_name మూడవ:B-depart_date.day_number మధ్య:O విమాన:O సమాచారాన్ని:O కోరుకుంటున్నాను:O 
+atis_flight,నేను:O ఈ:B-depart_date.today_relative రోజు:O నుండి:O రెండు:B-depart_date.date_relative రోజులు:O ఉదయాన్నే:B-depart_time.period_of_day మిన్నియాపాలిస్:B-fromloc.city_name నుండి:O లాంగ్:B-toloc.city_name బీచ్‌కి:I-toloc.city_name వెళ్లాలనుకుంటున్నాను:O 
+atis_quantity,టాకోమా:B-fromloc.city_name నుండి:O మాంట్రియల్‌కి:B-toloc.city_name ఒక:B-round_trip మార్గంలో:I-round_trip ఎన్ని:O ఛార్జీలు:O ఉన్నాయి:O 
+atis_flight,అట్లాంటా:B-fromloc.city_name నుండి:O బోస్టన్‌కి:B-toloc.city_name వెళ్లే:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,జనరల్:O మిచెల్:I-toloc.airport_name ఇంటర్నేషనల్‌లో:O అన్ని:O ల్యాండింగ్‌లను:O జాబితా:O చేయండి:O 
+atis_flight,వాయువ్య:B-airline_name మరియు:O యునైటెడ్:O విమానాలు:O మధ్యాహ్నం:B-depart_time.time ముందు:B-depart_time.time_relative డెన్వర్:B-stoploc.city_name గుండా:O వెళతాయి:O 
+atis_airfare,బాల్టిమోర్:B-fromloc.city_name నుండి:O ఫిలడెల్ఫియా:B-toloc.city_name వరకు:O రౌండ్:B-round_trip ట్రిప్:I-round_trip ఛార్జీలు:O 1000:B-fare_amount డాలర్లలోపు:I-fare_amount 
+atis_flight,డల్లాస్:B-fromloc.city_name నుండి:O అట్లాంటాకు:B-toloc.city_name ఉదయం:B-depart_time.period_of_day విమానం:O 
+atis_abbreviation,ఫేర్:O కోడ్:O fn:B-fare_basis_code అంటే:O ఏమిటి:O 
+atis_flight,నేను:O ఆగష్టు:O ఇరవైన:B-depart_date.day_number పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name విమానంలో:O వెళ్లాలనుకుంటున్నాను:O 
+atis_meal,బోస్టన్:B-fromloc.city_name నుండి:O డెన్వర్:B-toloc.city_name వరకు:O నా:O భోజన:B-meal ఎంపికలు:O ఏమిటి:O 
+atis_flight,నేను:O అమెరికన్:B-airline_name ఎయిర్‌లైన్స్‌లో:O మియామీ:O నుండి:O చికాగోకు:B-toloc.city_name ప్రయాణించాలనుకుంటున్నాను:O మరియు:O మధ్యాహ్నం:B-arrive_time.period_of_day 5:B-arrive_time.time గంటలకు:I-arrive_time.time చేరుకోవాలనుకుంటున్నానుO నాకు:O అన్ని:O విమానాలను:O చూపించు:O 
+atis_flight,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O రేపు:B-depart_date.today_relative బయలుదేరి:O బోస్టన్‌కి:B-toloc.city_name వచ్చే:O అన్ని:O విమానాలను:O నాకు:O చూపించు:O 
+atis_flight,ఇండియానాపోలిస్:B-fromloc.city_name నుండి:O సీటెల్‌కు:B-toloc.city_name విమానాలు:O 
+atis_flight,నెవార్క్:B-fromloc.city_name టు:O క్లీవ్‌ల్యాండ్:B-toloc.city_name 
+atis_flight,బోస్టన్:B-fromloc.city_name నుండి:O శాన్:B-toloc.city_name ఫ్రాన్సిస్కోకు:I-toloc.city_name అల్పాహారం:B-meal_description మాత్రమే:O అందించే:O విమానాలను:O జాబితా:O చేయండి:O 
+atis_flight,మంగళవారం:B-depart_date.day_name లాస్:B-fromloc.city_name ఏంజెల్స్:O నుండి:O పిట్స్‌బర్గ్‌కి:B-toloc.city_name విమానాలను:O చూపించు:O 
+atis_flight,కాంటినెంటల్‌లో:O శనివారం:B-depart_date.day_name చికాగో:B-fromloc.city_name నుండి:O మిన్నియాపాలిస్‌కు:B-toloc.city_name విమానాలు:O ఏమైనా:O ఉన్నాయా?:O 
+atis_flight,నవంబర్:B-depart_date.month_name పదకొండవ:B-depart_date.day_number ఎకానమీ:O క్లాస్‌లో:O సాయంత్రం:I-depart_time.time 5:B-depart_time.time గంటల:O తర్వాత:B-depart_time.time_relative బోస్టన్:B-fromloc.city_name నుండి:O వాషింగ్టన్:B-toloc.city_name డిసికి:O అన్ని:O విమానాలు:O 
+atis_flight,పిట్స్‌బర్గ్:B-fromloc.city_name నుండి:O బోస్టన్‌కు:B-toloc.city_name పగటిపూట:O విమానాలను:O జాబితా:O చేయండి:O 
